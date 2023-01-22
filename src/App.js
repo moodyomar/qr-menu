@@ -1,4 +1,5 @@
 import './App.css'
+import {Navbar,ProductCard,SearchBar} from './components'
 
 
 const App = () => { 
@@ -6,7 +7,9 @@ const App = () => {
 return(
 
 <div className='App'>
-<h1>App</h1>
+<Navbar/>
+<ProductCard/>
+<SearchBar/>
 </div>
 
 )
