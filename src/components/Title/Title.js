@@ -6,8 +6,8 @@ const Title = () => {
 return(
 
 <div className='Title'>
-<h1>Breakfast</h1>
-<p>Sweet or salty, we have the perfect breakfast for every taste.</p>
+<h1>ארוחת בוקר</h1>
+<p>מתוק או מלוח, יש לנו את ארוחת הבוקר המושלמת לכל טעם.</p>
 </div>
 
 )

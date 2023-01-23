@@ -3,11 +3,11 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import { CardActionArea } from '@mui/material';
 
 export default function MultiActionAreaCard() {
   return (
-    <Card sx={{ maxWidth: 345 ,textAlign:"right",direction:"rtl"}}>
+    <Card sx={{ textAlign:"right",direction:"rtl"}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -16,18 +16,13 @@ export default function MultiActionAreaCard() {
           alt="green iguana"/>
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-            עוגה שוקולד
+           25₪
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            עוגה שוקולד מיוחד עם טעם של תות ושילוב של חמוץ מתוק שמשלב בין בספלורה ובננה כמו שלא טעמתם אף פעם בחיים שלכם.
+          <Typography variant="body1" color="text.secondary">
+            עוגת טריליצ׳ה כרמל
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-      <Typography gutterBottom variant="h4" component="div">
-            25₪
-          </Typography>
-      </CardActions>
     </Card>
   );
 }

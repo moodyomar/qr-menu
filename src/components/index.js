@@ -1,6 +1,6 @@
 export {default as Navbar} from "./Navbar/Navbar"
 export {default as ProductCard} from "./ProductCard/ProductCard"
-export {default as SearchBar} from "./SearchBar/SearchBar"
+export {default as CategoryCard} from "./CategoryCard/CategoryCard"
 export {default as ProductsArea} from "./ProductsArea/ProductsArea"
 export {default as ProductsSlider} from "./ProductsSlider/ProductsSlider"
 export {default as Title} from "./Title/Title"

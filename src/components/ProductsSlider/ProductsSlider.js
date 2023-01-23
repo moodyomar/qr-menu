@@ -1,56 +1,48 @@
 import './ProductsSlider.css'
-import Carousel from 'react-material-ui-carousel'
-import { Paper, Button } from '@mui/material'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import { CategoryCard } from '..';
 
+const ProductsSlider = () => { 
 
-const ProductsSlider = () => {
-
-    const items = [
-        {
-            name: "Choclate Cake",
-            description: "Probably the most random thing you have ever seen!",
-            image:"https://assets.woolworthsstatic.co.za/eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvY29udGVudC9sYW5kaW5nX3BhZ2VzL0Zvb2RfMjAyMC9Gb29kX01vYmlsZV9XZWVrMTdfTGlzdGluZ0Jhbm5lcjAxLmpwZyJ9.jpg?&q=75"
+    const responsive = {
+        superLargeDesktop: {
+          // the naming can be any, depends on you.
+          breakpoint: { max: 4000, min: 3000 },
+          items: 5
         },
-        {
-            name: "Strawberry Cake",
-            description: "Hello World!",
-            image:"https://assets.woolworthsstatic.co.za/eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvY29udGVudC9sYW5kaW5nX3BhZ2VzL0Zvb2RQcm9tbzIxL1dpbnRlckxhbmRGZHNfTW9iaWxlX1dlZWs0NF9MaXN0QmFubmVyMDQuanBnIn0.jpg?&q=75"
+        desktop: {
+          breakpoint: { max: 3000, min: 1024 },
+          items: 4
         },
-        {
-            name: "Cafe and Desert",
-            description: "Hello World!",
-            image:"https://cdn.shopify.com/s/files/1/0362/3508/3909/files/LF_Shopify_x200.png?v=1614294630"
+        tablet: {
+          breakpoint: { max: 1024, min: 464 },
+          items: 4
+        },
+        mobile: {
+          breakpoint: { max: 464, min: 0 },
+          items: 3
         }
-    ]
+      };
 
-    return (
+return(
 
-        <div className='ProductsSlider' style={{marginTop:"50px"}}>
-            <p >Fresh, healthy and delicious!</p>
-            <Carousel animation='slide'>
-                {
-                    items.map((item, i) => <Item key={i} item={item} />)
-                }
-            </Carousel>
-        </div>
+<div className='ProductsSlider'>
+<p>קינוחים שווים וטעימים מאוד</p>
+<Carousel responsive={responsive} autoPlay={true}
+  autoPlaySpeed={2000} partialVisible={false}  
+>
+<CategoryCard catImg={"https://picsum.photos/90"}/>
+<CategoryCard catImg={"https://picsum.photos/90"}/>
+<CategoryCard catImg={"https://picsum.photos/90"}/>
+<CategoryCard catImg={"https://picsum.photos/90"}/>
+<CategoryCard catImg={"https://picsum.photos/90"}/>
+<CategoryCard catImg={"https://picsum.photos/90"}/>
+</Carousel>
 
-    )
+</div>
+
+)
 }
-
-const Item = (props) =>
-{
-    return (
-        <Paper>
-            <img src={props.item.image} alt="" />
-            <h2>{props.item.name}</h2>
-            <p>{props.item.description}</p>
-
-            <Button className="CheckButton">
-                Check it out!
-            </Button>
-        </Paper>
-    )
-}
-
 
 export default ProductsSlider
