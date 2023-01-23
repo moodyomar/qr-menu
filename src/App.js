@@ -1,5 +1,5 @@
 import './App.css'
-import {Navbar,ProductsArea,ProductsSlider,Title} from './components'
+import {BottomNavbar, Navbar,ProductsArea,ProductsSlider,Title} from './components'
 
 
 const App = () => { 
@@ -11,6 +11,7 @@ return(
 <ProductsSlider/>
 <Title/>
 <ProductsArea/>
+<BottomNavbar/>
 </div>
 
 )
