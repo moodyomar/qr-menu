@@ -1,15 +1,16 @@
 import './ProductsSlider.css'
 
 
-const ProductsSlider = () => { 
+const ProductsSlider = () => {
 
-return(
+    return (
 
-<div className='ProductsSlider'>
-<h1>ProductsSlider</h1>
-</div>
+        <div className='ProductsSlider'>
+            <h1>Products Slider goes here</h1>
+            <p>Fresh, healthy and delicious!</p>
+        </div>
 
-)
+    )
 }
 
 export default ProductsSlider
