@@ -7,7 +7,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 export default function MultiActionAreaCard() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 ,textAlign:"right",direction:"rtl"}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -16,11 +16,10 @@ export default function MultiActionAreaCard() {
           alt="green iguana"/>
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-            Lizard
+            עוגה שוקולד
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            עוגה שוקולד מיוחד עם טעם של תות ושילוב של חמוץ מתוק שמשלב בין בספלורה ובננה כמו שלא טעמתם אף פעם בחיים שלכם.
           </Typography>
         </CardContent>
       </CardActionArea>

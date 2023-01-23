@@ -6,7 +6,7 @@ const ProductsArea = () => {
 
 return(
 
-<div className='ProductsArea'>
+<div className='ProductsArea' style={styles.flex}>
 <h1>ProductsArea</h1>
 <ProductCard/>
 <ProductCard/>
@@ -15,6 +15,15 @@ return(
 </div>
 
 )
+}
+
+const styles = {
+    flex: {
+        display:"flex",
+        justifyContent:"center",
+        flexDirection:"column",
+        alignItems:"center"
+    }
 }
 
 export default ProductsArea
