@@ -1,8 +1,8 @@
 import './ProductsSlider.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { clouds, sunny, rain, fog, mist, clear } from "../../images/"
 import { CategoryCard } from '..';
+import content from "../../json/content-hr.json"
 
 const ProductsSlider = () => {
 
@@ -26,19 +26,16 @@ const ProductsSlider = () => {
     }
   };
 
+
   return (
 
     <div className='ProductsSlider'>
       <p>קינוחים שווים וטעימים מאוד</p>
       <Carousel responsive={responsive} autoPlay={true}
-        autoPlaySpeed={2000} partialVisible={false}
-      >
-        <CategoryCard catImg={clouds} />
-        <CategoryCard catImg={sunny} />
-        <CategoryCard catImg={rain} />
-        <CategoryCard catImg={fog} />
-        <CategoryCard catImg={mist} />
-        <CategoryCard catImg={clear} />
+        autoPlaySpeed={2000} partialVisible={false}>
+        {content.categories.map((category,i) => (
+          <CategoryCard key={i} category={category}/>
+        ))}
       </Carousel>
 
     </div>

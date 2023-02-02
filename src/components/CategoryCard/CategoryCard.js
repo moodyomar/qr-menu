@@ -1,13 +1,13 @@
 import './CategoryCard.css'
 
 
-const CategoryCard = ({catImg}) => { 
+const CategoryCard = ({category:{name,image}}) => { 
 
 return(
 
-<div className='CategoryCard' style={{backgroundImage:`url(${catImg})`
+<div className='CategoryCard' style={{backgroundImage:`url(${image})`
 }}>
-<span>שתיה קלה</span>
+<span>{name}</span>
 </div>
 
 )

@@ -1,0 +1,78 @@
+{
+    "categories": [
+        {
+            "name": "לוטוס",
+            "image": "images/categories/lotus.jpeg",
+            "desc":"מהעוגות הכי מבוקשות, הלוטוס המיוחדת שלנו"
+        },
+        {
+            "name": "שתיה קלה",
+            "image": "images/categories/softdrinks.jpeg",
+            "desc":"בספלורה, אייס קפה, קולה ספרייט ועוד מגוון רחב"
+        },
+        {
+            "name": "שוקולד",
+            "image": "images/categories/chocolate.jpeg",
+            "desc":"כדורי שוקולד, קריפים, פנקייס וכל מה שהלב אוהב"
+        },
+        {
+            "name": "תמרים",
+            "image": "images/categories/dates.jpeg",
+            "desc":"בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו"
+        },
+        {
+            "name": "שתיה חמה",
+            "image": "images/categories/hotdrinks.jpeg",
+            "desc":"בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו"
+        },
+        {
+            "name": "קוקיז",
+            "image": "images/categories/cookies.jpeg",
+            "desc":"בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו"
+        }
+    ],
+    "products": [
+        {
+            "name": "product A",
+            "category": "לוטוס",
+            "sku": "A",
+            "price": 9.99,
+            "picture": "../images/lotus/a.png"
+        },
+        {
+            "name": "product B",
+            "category": "שתיה קלה",
+            "sku": "B",
+            "price": 3.99,
+            "picture": "../images/softdrinks/b.png"
+        },
+        {
+            "name": "product C",
+            "category": "שוקולד",
+            "sku": "C",
+            "price": 12.99,
+            "picture": "../images/chocolate/c.png"
+        },
+        {
+            "name": "product D",
+            "category": "תמרים",
+            "sku": "D",
+            "price": 7.99,
+            "picture": "../images/dates/d.png"
+        },
+        {
+            "name": "product E",
+            "category": "שתיה חמה",
+            "sku": "E",
+            "price": 5.99,
+            "picture": "../images/hotdrinks/e.png"
+        },
+        {
+            "name": "product F",
+            "category": "קוקיז",
+            "sku": "F",
+            "price": 7.99,
+            "picture": "../images/cookies/f.png"
+        }
+    ]
+}
