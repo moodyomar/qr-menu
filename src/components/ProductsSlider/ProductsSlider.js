@@ -1,48 +1,49 @@
 import './ProductsSlider.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { clouds, sunny, rain, fog, mist, clear } from "../../images/"
 import { CategoryCard } from '..';
 
-const ProductsSlider = () => { 
+const ProductsSlider = () => {
 
-    const responsive = {
-        superLargeDesktop: {
-          // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 3000 },
-          items: 5
-        },
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 4
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 4
-        },
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 3
-        }
-      };
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 4
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 3
+    }
+  };
 
-return(
+  return (
 
-<div className='ProductsSlider'>
-<p>קינוחים שווים וטעימים מאוד</p>
-<Carousel responsive={responsive} autoPlay={true}
-  autoPlaySpeed={2000} partialVisible={false}  
->
-<CategoryCard catImg={"https://picsum.photos/90"}/>
-<CategoryCard catImg={"https://picsum.photos/90"}/>
-<CategoryCard catImg={"https://picsum.photos/90"}/>
-<CategoryCard catImg={"https://picsum.photos/90"}/>
-<CategoryCard catImg={"https://picsum.photos/90"}/>
-<CategoryCard catImg={"https://picsum.photos/90"}/>
-</Carousel>
+    <div className='ProductsSlider'>
+      <p>קינוחים שווים וטעימים מאוד</p>
+      <Carousel responsive={responsive} autoPlay={true}
+        autoPlaySpeed={2000} partialVisible={false}
+      >
+        <CategoryCard catImg={clouds} />
+        <CategoryCard catImg={sunny} />
+        <CategoryCard catImg={rain} />
+        <CategoryCard catImg={fog} />
+        <CategoryCard catImg={mist} />
+        <CategoryCard catImg={clear} />
+      </Carousel>
 
-</div>
+    </div>
 
-)
+  )
 }
 
 export default ProductsSlider
