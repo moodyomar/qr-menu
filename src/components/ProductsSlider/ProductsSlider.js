@@ -34,7 +34,7 @@ const ProductsSlider = () => {
       <Carousel responsive={responsive} autoPlay={true}
         autoPlaySpeed={2000} partialVisible={false}>
         {content.categories.map((category,i) => (
-          <CategoryCard key={i} category={category}/>
+          <a href={`#${category.name}`}><CategoryCard key={i} category={category}/></a>
         ))}
       </Carousel>
 

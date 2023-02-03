@@ -5,7 +5,7 @@ const Title = ({category:{name,desc}}) => {
 
 return(
 
-<div className='Title'>
+<div className='Title' id={name}>
 <h1>{name}</h1>
 <p>{desc}</p>
 </div>
