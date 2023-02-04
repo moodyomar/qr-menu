@@ -7,33 +7,48 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import TranslateIcon from '@material-ui/icons/Translate';
+import flagAR from '../../languages/flags/Ar.png';
+import flagHE from '../../languages//flags/He.png';
 
-const pages = ['Products', 'Pricing', 'Blog'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const [anchorElLang, setAnchorElLang] = React.useState(null);
+  const [selectedLanguage, setSelectedLanguage] = React.useState("He");
+
+
+
+
+  const pages = ['Products', 'Pricing', 'Blog'];
+  const languages = ['Ar', 'He'];
+
+  const handleOpenLangMenu = (event) => {
+    setAnchorElLang(event.currentTarget);
+  };
+  const handleCloseLangMenu = () => {
+    setAnchorElLang(null);
+  };
+  const handleLanguageChange = (language) => {
+    // Add code to change the language here
+    setSelectedLanguage(language);
+    handleCloseLangMenu();
+  };
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+
 
   return (
     <AppBar position="static" sx={{ bgcolor: "#1E1E1E" }}>
@@ -58,6 +73,20 @@ function ResponsiveAppBar() {
             LOGO
           </Typography>
 
+
+
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+            {pages.map((page) => (
+              <Button
+                key={page}
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'white', display: 'block' }}
+              >
+                {page}
+              </Button>
+            ))}
+          </Box>
+          {/* Burger Menu */}
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -94,47 +123,17 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            LOGO
-          </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>
-            ))}
-          </Box>
-
+          {/* Language Switcher */}
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+            <Tooltip title="Select language">
+              <IconButton onClick={handleOpenLangMenu} sx={{ p: 0 }}>
+                <img src={selectedLanguage === 'He' ? flagHE : flagAR} alt={selectedLanguage} sx={{ height: '15px', marginRight: '10px' }} />
               </IconButton>
             </Tooltip>
             <Menu
               sx={{ mt: '45px' }}
               id="menu-appbar"
-              anchorEl={anchorElUser}
+              anchorEl={anchorElLang}
               anchorOrigin={{
                 vertical: 'top',
                 horizontal: 'right',
@@ -144,17 +143,18 @@ function ResponsiveAppBar() {
                 vertical: 'top',
                 horizontal: 'right',
               }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
+              open={Boolean(anchorElLang)}
+              onClose={handleCloseLangMenu}
             >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
+              {languages.map((language) => (
+                <MenuItem key={language} onClick={() => handleLanguageChange(language)}>
+                  {language === 'He' ? <img src={flagHE} alt="He flag" /> : <img src={flagAR} alt="Ar flag" />}
+                  <Typography style={{ color: 'white' }} textAlign="center" >{language}</Typography>
+                  {language}
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
-        </Toolbar>
+          </Box>        </Toolbar>
       </Container>
     </AppBar>
   );

@@ -30,7 +30,7 @@ const ProductsSlider = () => {
   return (
 
     <div className='ProductsSlider'>
-      <p>קינוחים שווים וטעימים מאוד</p>
+      <p style={{margin:15}}>קינוחים שווים וטעימים מאוד</p>
       <Carousel responsive={responsive} autoPlay={true}
         autoPlaySpeed={2000} partialVisible={false}>
         {content.categories.map((category,i) => (

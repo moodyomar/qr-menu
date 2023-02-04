@@ -16,7 +16,7 @@ export default function MultiActionAreaCard({product:{name,price,picture}}) {
           alt="green iguana"/>
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-           {price}
+           ₪{price}
           </Typography>
           <Typography variant="body1" color="text.secondary">
             {name}

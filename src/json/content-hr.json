@@ -3,27 +3,84 @@
         {
             "name": "לוטוס",
             "image": "images/categories/lotus.jpeg",
-            "desc":"מהעוגות הכי מבוקשות, הלוטוס המיוחדת שלנו",
+            "desc": "מהעוגות הכי מבוקשות, הלוטוס המיוחדת שלנו",
             "products": [
                 {
                     "name": "product A",
                     "category": "לוטוס",
                     "sku": "A",
                     "price": 9.99,
-                    "picture": "images/lotus/a.png"
-                },                {
+                    "picture": "images/lotus/a.jpeg"
+                },
+                {
                     "name": "product AB",
                     "category": "לוטוס",
                     "sku": "AB",
                     "price": 8.99,
-                    "picture": "images/lotus/a.png"
+                    "picture": "images/lotus/b.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "שוקולד",
+            "image": "images/categories/chocolate.jpeg",
+            "desc": "כדורי שוקולד, קריפים, פנקייס וכל מה שהלב אוהב",
+            "products": [
+                {
+                    "name": "product C",
+                    "category": "שוקולד",
+                    "sku": "C",
+                    "price": 12.99,
+                    "picture": "images/chocolate/a.jpeg"
+                },
+                {
+                    "name": "product CB",
+                    "category": "שוקולד",
+                    "sku": "CB",
+                    "price": 11.99,
+                    "picture": "images/chocolate/b.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "קוקיז",
+            "image": "images/categories/cookies.jpeg",
+            "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
+            "products": [
+                {
+                    "name": "אוזני האמיין",
+                    "category": "קוקיז",
+                    "sku": "F",
+                    "price": 7.99,
+                    "picture": "images/cookies/a.jpeg"
+                },
+                {
+                    "name": "בסקויט בוטנים",
+                    "category": "קוקיז",
+                    "sku": "FB",
+                    "price": 6.99,
+                    "picture": "images/cookies/b.jpeg"
+                },
+                {
+                    "name": "שופאן בדבש",
+                    "category": "קוקיז",
+                    "sku": "FB",
+                    "price": 6.99,
+                    "picture": "images/cookies/c.jpeg"
+                },
+                {
+                    "name": "בסקויט טחינה",
+                    "category": "קוקיז",
+                    "sku": "FB",
+                    "price": 6.99,
+                    "picture": "images/cookies/d.jpeg"
                 }
             ]
         },
         {
             "name": "שתיה קלה",
             "image": "images/categories/softdrinks.jpeg",
-            "desc":"בספלורה, אייס קפה, קולה ספרייט ועוד מגוון רחב",
+            "desc": "בספלורה, אייס קפה, קולה ספרייט ועוד מגוון רחב",
             "products": [
                 {
                     "name": "product B",
@@ -31,27 +88,20 @@
                     "sku": "B",
                     "price": 3.99,
                     "picture": "images/softdrinks/b.png"
-                }
-            ]
-        },
-        {
-            "name": "שוקולד",
-            "image": "images/categories/chocolate.jpeg",
-            "desc":"כדורי שוקולד, קריפים, פנקייס וכל מה שהלב אוהב",
-            "products": [
+                },
                 {
-                    "name": "product C",
-                    "category": "שוקולד",
-                    "sku": "C",
-                    "price": 12.99,
-                    "picture": "images/chocolate/c.png"
+                    "name": "product BB",
+                    "category": "שתיה קלה",
+                    "sku": "BB",
+                    "price": 2.99,
+                    "picture": "images/softdrinks/b.png"
                 }
             ]
         },
         {
             "name": "תמרים",
             "image": "images/categories/dates.jpeg",
-            "desc":"בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
+            "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
             "products": [
                 {
                     "name": "product D",
@@ -59,34 +109,34 @@
                     "sku": "D",
                     "price": 7.99,
                     "picture": "images/dates/d.png"
+                },
+                {
+                    "name": "product DB",
+                    "category": "תמרים",
+                    "sku": "D",
+                    "price": 6.99,
+                    "picture": "images/dates/d.png"
                 }
             ]
         },
         {
             "name": "שתיה חמה",
             "image": "images/categories/hotdrinks.jpeg",
-            "desc":"בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
+            "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
             "products": [
                 {
                     "name": "product E",
                     "category": "שתיה חמה",
                     "sku": "E",
                     "price": 5.99,
-                    "picture": "images/hotdrinks/e.png"
-                }
-            ]
-        },
-        {
-            "name": "קוקיז",
-            "image": "images/categories/cookies.jpeg",
-            "desc":"בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
-            "products": [
+                    "picture": "images/hotdrinks/a.jpeg"
+                },
                 {
-                    "name": "product F",
-                    "category": "קוקיז",
-                    "sku": "F",
-                    "price": 7.99,
-                    "picture": "images/cookies/f.png"
+                    "name": "product EB",
+                    "category": "שתיה חמה",
+                    "sku": "EB",
+                    "price": 6.99,
+                    "picture": "images/hotdrinks/b.jpeg"
                 }
             ]
         }
