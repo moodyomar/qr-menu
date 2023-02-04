@@ -1,13 +1,13 @@
 import './Title.css'
 
 
-const Title = () => { 
+const Title = ({category:{name,desc}}) => { 
 
 return(
 
-<div className='Title'>
-<h1>ארוחת בוקר</h1>
-<p>מתוק או מלוח, יש לנו את ארוחת הבוקר המושלמת לכל טעם.</p>
+<div className='Title' id={name}>
+<h1>{name}</h1>
+<p>{desc}</p>
 </div>
 
 )

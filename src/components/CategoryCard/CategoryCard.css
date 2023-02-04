@@ -5,8 +5,9 @@
     box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.36);
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
     padding-bottom: 5px;
     color: #fff;
     margin-bottom: 10px;
+    background-size: cover;
 }

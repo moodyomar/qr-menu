@@ -1,5 +1,5 @@
 import './App.css'
-import {BottomNavbar, Navbar,ProductsArea,ProductsSlider,Title} from './components'
+import {BottomNavbar, Hero, Navbar,ProductsArea,ProductsSlider} from './components'
 
 
 const App = () => { 
@@ -8,8 +8,8 @@ return(
 
 <div className='App' style={{textAlign:"center"}}>
 <Navbar/>
+<Hero/>
 <ProductsSlider/>
-<Title/>
 <ProductsArea/>
 <BottomNavbar/>
 </div>

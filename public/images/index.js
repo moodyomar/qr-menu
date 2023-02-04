@@ -1,0 +1,7 @@
+export {default as clouds} from "./bgClouds.png"
+export {default as sunny} from "./bgSunny.png"
+export {default as rain} from "./bgRain.png"
+export {default as fog} from "./bgFog.png"
+export {default as mist} from "./bgMist.png"
+export {default as clear} from "./bgClear.png"
+export {default as logo} from "./logo.png"
