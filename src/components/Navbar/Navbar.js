@@ -11,7 +11,6 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import TranslateIcon from '@material-ui/icons/Translate';
 import flagAR from '../../languages/flags/Ar.png';
 import flagHE from '../../languages//flags/He.png';
 
