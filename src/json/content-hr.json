@@ -1,6 +1,90 @@
 {
     "categories": [
         {
+            "name": "ראשיות",
+            "image": "images/categories/baked-cheese.jpeg",
+            "desc": "הכי מבוקשים שלנו, גבינה אפויה, טרילישה ועוד",
+            "products": [
+                {
+                    "name": "טרילישה",
+                    "category": "ראשיות",
+                    "sku": "B",
+                    "price": 3.99,
+                    "picture": "images/mains/terelisha.JPG"
+                },
+                {
+                    "name": "בסבוסה",
+                    "category": "ראשיות",
+                    "sku": "BB",
+                    "price": 2.99,
+                    "picture": "images/mains/bsbosa.jpeg"
+                },
+                {
+                    "name": "גבינה אפויה",
+                    "category": "ראשיות",
+                    "sku": "BB",
+                    "price": 2.99,
+                    "picture": "images/mains/baked-cheese.jpeg"
+                },
+                {
+                    "name": "ליאלי בירות",
+                    "category": "ראשיות",
+                    "sku": "BB",
+                    "price": 2.99,
+                    "picture": "images/mains/lyali-beirut.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "שוקולד",
+            "image": "images/categories/chocolate.jpeg",
+            "desc": "כדורי שוקולד, קריפים, פנקייס וכל מה שהלב אוהב",
+            "products": [
+                {
+                    "name": "עוגת קינדר",
+                    "category": "שוקולד",
+                    "sku": "C",
+                    "price": 12.99,
+                    "picture": "images/chocolate/a.jpeg"
+                },
+                {
+                    "name": "מיקס שוקולד",
+                    "category": "שוקולד",
+                    "sku": "CB",
+                    "price": 11.99,
+                    "picture": "images/chocolate/b.jpeg"
+                },
+                {
+                    "name": "דובדובן",
+                    "category": "שוקולד",
+                    "sku": "C",
+                    "price": 12.99,
+                    "picture": "images/chocolate/cherry-chocolate.jpeg"
+                },
+                {
+                    "name": "כדורים",
+                    "category": "שוקולד",
+                    "sku": "CB",
+                    "price": 11.99,
+                    "picture": "images/chocolate/choclate-balls.jpeg"
+                },
+                {
+                    "name": "שוקולד תות",
+                    "category": "שוקולד",
+                    "sku": "C",
+                    "price": 12.99,
+                    "picture": "images/chocolate/choco-straw.jpeg"
+                },
+                {
+                    "name": "עוגת סופלי",
+                    "category": "שוקולד",
+                    "sku": "CB",
+                    "price": 11.99,
+                    "picture": "images/chocolate/sofle.jpeg"
+                }
+            ]
+        },
+        {
             "name": "לוטוס",
             "image": "images/categories/lotus.jpeg",
             "desc": "מהעוגות הכי מבוקשות, הלוטוס המיוחדת שלנו",
@@ -18,27 +102,6 @@
                     "sku": "AB",
                     "price": 8.99,
                     "picture": "images/lotus/b.jpeg"
-                }
-            ]
-        },
-        {
-            "name": "שוקולד",
-            "image": "images/categories/chocolate.jpeg",
-            "desc": "כדורי שוקולד, קריפים, פנקייס וכל מה שהלב אוהב",
-            "products": [
-                {
-                    "name": "product C",
-                    "category": "שוקולד",
-                    "sku": "C",
-                    "price": 12.99,
-                    "picture": "images/chocolate/a.jpeg"
-                },
-                {
-                    "name": "product CB",
-                    "category": "שוקולד",
-                    "sku": "CB",
-                    "price": 11.99,
-                    "picture": "images/chocolate/b.jpeg"
                 }
             ]
         },
@@ -83,18 +146,32 @@
             "desc": "בספלורה, אייס קפה, קולה ספרייט ועוד מגוון רחב",
             "products": [
                 {
-                    "name": "product B",
+                    "name": "אקס-אל",
                     "category": "שתיה קלה",
                     "sku": "B",
                     "price": 3.99,
-                    "picture": "images/softdrinks/b.png"
+                    "picture": "images/softdrinks/xl.jpeg"
                 },
                 {
-                    "name": "product BB",
+                    "name": "בלו",
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": 2.99,
-                    "picture": "images/softdrinks/b.png"
+                    "picture": "images/softdrinks/blu.jpeg"
+                },
+                {
+                    "name": "ספרייט",
+                    "category": "שתיה קלה",
+                    "sku": "BB",
+                    "price": 2.99,
+                    "picture": "images/softdrinks/sprite.jpeg"
+                },
+                {
+                    "name": "קולה",
+                    "category": "שתיה קלה",
+                    "sku": "BB",
+                    "price": 2.99,
+                    "picture": "images/softdrinks/cola.jpeg"
                 }
             ]
         },

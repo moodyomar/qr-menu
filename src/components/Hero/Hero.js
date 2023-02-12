@@ -8,6 +8,7 @@ const useStyles = makeStyles({
     backgroundSize: "cover",
     height: "200px",
     position: "relative",
+    overflow:"hidden"
   },
   logo: {
     height: "250px",

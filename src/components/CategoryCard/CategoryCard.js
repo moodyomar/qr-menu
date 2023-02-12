@@ -7,7 +7,7 @@ const CategoryCard = ({category:{name,image}}) => {
         backgroundImage:`url(${image})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        position: 'relative'
+        position: 'relative',
       }}>
         <div style={{
           background: 'linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%)',
@@ -15,7 +15,8 @@ const CategoryCard = ({category:{name,image}}) => {
           left: 0,
           position: 'absolute',
           right: 0,
-          top: 'auto'
+          top: 'auto',
+          overflow:'hidden'
         }}>
           <strong style={{ color: '#fff', padding: '10px' }}>{name}</strong>
         </div>

@@ -11,7 +11,7 @@ export default function SimpleBottomNavigation() {
 
   return (
     <Box >
-      <BottomNavigation style={styles.stickToBottom} 
+      <BottomNavigation style={styles.stickToBottom}
         sx={{ boxShadow: 3 }}
         showLabels
         value={value}
@@ -19,7 +19,13 @@ export default function SimpleBottomNavigation() {
           setValue(newValue);
         }}>
         <BottomNavigationAction label="תפריט" icon={<MenuIcon />} />
-        <BottomNavigationAction label="ראשי" icon={<HomeIcon />} />
+        <BottomNavigationAction label="ראשי" icon={<HomeIcon />} onClick={() => {
+           window.scrollTo({
+            top: 0, 
+            left: 0, 
+            behavior: 'smooth'
+          });
+        }} />
         <BottomNavigationAction label="אהבתי" icon={<FavoriteIcon />} />
       </BottomNavigation>
     </Box>
@@ -27,9 +33,9 @@ export default function SimpleBottomNavigation() {
 }
 
 const styles = {
-    stickToBottom: {
-      width: '100vw',
-      position: 'fixed',
-      bottom: 0,
-    },
-  };
+  stickToBottom: {
+    width: '100vw',
+    position: 'fixed',
+    bottom: 0,
+  },
+};

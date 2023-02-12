@@ -14,7 +14,7 @@ const ProductsArea = () => {
         {content.categories.map((category, i) => (
           <React.Fragment key={i}>
             {/* Each Category Title */}
-            <Title category={category} />
+            <Title category={category}/>
             <Grid container spacing={2}>
               {category.products.map((product, i) => (
                 <Grid item xs={6} key={i}>
