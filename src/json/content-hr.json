@@ -1,4 +1,7 @@
 {
+    "catTitle":"קטגוריות",
+    "catDesc":"קינוחים שווים וטעימים מאוד",
+
     "categories": [
         {
             "name": "ראשיות",
@@ -90,14 +93,14 @@
             "desc": "מהעוגות הכי מבוקשות, הלוטוס המיוחדת שלנו",
             "products": [
                 {
-                    "name": "product A",
+                    "name": "עוגת לוטוס",
                     "category": "לוטוס",
                     "sku": "A",
                     "price": 9.99,
                     "picture": "images/lotus/a.jpeg"
                 },
                 {
-                    "name": "product AB",
+                    "name": "ריבת חלב",
                     "category": "לוטוס",
                     "sku": "AB",
                     "price": 8.99,
@@ -137,6 +140,20 @@
                     "sku": "FB",
                     "price": 6.99,
                     "picture": "images/cookies/d.jpeg"
+                },
+                {
+                    "name": "משולגת",
+                    "category": "קוקיז",
+                    "sku": "FB",
+                    "price": 6.99,
+                    "picture": "images/cookies/msholeget.jpeg.jpeg"
+                },
+                {
+                    "name": "בסקויט דבש",
+                    "category": "קוקיז",
+                    "sku": "FB",
+                    "price": 6.99,
+                    "picture": "images/cookies/moksrat-honey.jpeg.jpeg"
                 }
             ]
         },
@@ -181,18 +198,18 @@
             "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
             "products": [
                 {
-                    "name": "product D",
+                    "name": "מגרוטה סמיד",
                     "category": "תמרים",
                     "sku": "D",
-                    "price": 7.99,
-                    "picture": "images/dates/d.png"
+                    "price": 40,
+                    "picture": "images/dates/magrota.jpeg"
                 },
                 {
-                    "name": "product DB",
+                    "name": "מעמולים",
                     "category": "תמרים",
                     "sku": "D",
-                    "price": 6.99,
-                    "picture": "images/dates/d.png"
+                    "price": 40,
+                    "picture": "images/dates/mamool.jpeg"
                 }
             ]
         },
@@ -202,18 +219,18 @@
             "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
             "products": [
                 {
-                    "name": "product E",
+                    "name": "הוט צו׳קלט",
                     "category": "שתיה חמה",
                     "sku": "E",
-                    "price": 5.99,
+                    "price": 14,
                     "picture": "images/hotdrinks/a.jpeg"
                 },
                 {
-                    "name": "product EB",
+                    "name": "הפוך",
                     "category": "שתיה חמה",
                     "sku": "EB",
-                    "price": 6.99,
-                    "picture": "images/hotdrinks/b.jpeg"
+                    "price": "12/14",
+                    "picture": "images/hotdrinks/hafokh.jpeg"
                 }
             ]
         }
