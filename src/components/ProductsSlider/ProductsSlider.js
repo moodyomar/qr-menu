@@ -35,7 +35,7 @@ const ProductsSlider = () => {
         "desc": content.catDesc
       }} />
       <Carousel responsive={responsive} autoPlay={true}
-        autoPlaySpeed={3000} partialVisible={false} rewind={true} rewindWithAnimation={true} showDots={true} renderDotsOutside={true} rtl={true}>
+        autoPlaySpeed={3000} partialVisible={false} rewind={true} rewindWithAnimation={true} rtl={true}>
         {content.categories.map((category, i) => (
           <a href={`#${category.name}`}><CategoryCard key={i} category={category} /></a>
         ))}

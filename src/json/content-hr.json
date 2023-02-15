@@ -146,14 +146,14 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 6.99,
-                    "picture": "images/cookies/msholeget.jpeg.jpeg"
+                    "picture": "images/cookies/msholeget.jpeg"
                 },
                 {
                     "name": "בסקויט דבש",
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 6.99,
-                    "picture": "images/cookies/moksrat-honey.jpeg.jpeg"
+                    "picture": "images/cookies/moksrat-honey.jpeg"
                 }
             ]
         },
