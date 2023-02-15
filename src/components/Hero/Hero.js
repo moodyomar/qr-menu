@@ -6,7 +6,7 @@ const useStyles = makeStyles({
   root: {
     backgroundImage: "url(hero.jpg)",
     backgroundSize: "cover",
-    height: "200px",
+    height: "225px",
     position: "relative",
     overflow:"hidden"
   },
@@ -22,7 +22,7 @@ const useStyles = makeStyles({
   overlay: {
     backgroundColor: "black",
     opacity: 0.5,
-    height: "200px",
+    height: "225px",
     width: "100%",
     position: "absolute",
     top: 0,

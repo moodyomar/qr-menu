@@ -41,15 +41,16 @@
   
   .food-card-title {
     margin: 0;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: normal;
   }
   
   .food-card-price {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     background-color: #D39F47;
-    width: 62px;
+    width: 65px;
     border-radius: 10px;
   }
   
