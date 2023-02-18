@@ -1,6 +1,8 @@
 import React from 'react';
-import { Box} from '@material-ui/core';
+import { Box } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import shapeDivider from "./shape.svg"
+import "./Hero.css"
 
 const useStyles = makeStyles({
   root: {
@@ -8,7 +10,7 @@ const useStyles = makeStyles({
     backgroundSize: "cover",
     height: "225px",
     position: "relative",
-    overflow:"hidden"
+    overflow: "hidden"
   },
   logo: {
     height: "250px",
@@ -28,16 +30,37 @@ const useStyles = makeStyles({
     top: 0,
     left: 0,
   },
-});
+  shapeDivider: {
+    overflow: "hidden",
+    position: "relative",
+    "&::before": {
+      content: "''",
+      fontFamily: "'shape divider from ShapeDividers.com'",
+      position: "absolute",
+      zIndex: 3,
+      pointerEvents: "none",
+      backgroundRepeat: "no-repeat",
+      bottom: "-0.05vw",
+      left: "-50vw",
+      right: "-50vw",
+      top: "-0.1vw",
+      backgroundSize: "100% 40px",
+      backgroundPosition: "50% 100%",
+      backgroundImage: `url(${shapeDivider})`,
+      filter: "invert(1)",
+    },
+  },});
 
 const Hero = () => {
   const classes = useStyles();
 
   return (
-    <Box className={classes.root}>
-      <Box className={classes.overlay} />
-      <img className={classes.logo} src={"logo-t.png"} alt="Logo" />
-    </Box>
+    <div className={classes.shapeDivider}>
+      <Box className={classes.root}>
+        <Box className={classes.overlay} />
+        <img className={classes.logo} src={"logo-t.png"} alt="Logo" />
+      </Box>
+    </div>
   );
 };
 

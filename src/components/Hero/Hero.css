@@ -1,0 +1,9 @@
+
+.shapeDivider-4{
+    background-color: red !important;
+}
+@media (min-width:2100px) {
+    .shapedividers_com-673::before {
+        background-size: 100% calc(2vw + 90px);
+    }
+}
