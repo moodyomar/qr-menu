@@ -2,9 +2,9 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import MenuIcon from '@mui/icons-material/Menu';
-import HomeIcon from '@mui/icons-material/Home';
-import FavoriteIcon from '@mui/icons-material/Favorite';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
@@ -12,12 +12,22 @@ export default function SimpleBottomNavigation() {
 
   const handleClick = (index) => {
     setSelectedIndex(index);
-    if (index === 1) {
-      window.scrollTo({
-        top: 0, 
-        left: 0, 
-        behavior: 'smooth'
-      });
+    switch (index) {
+      case 0:
+        window.location.href = "http://instagram.com/sweets_safaa/"
+        break;
+      case 1:
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: 'smooth'
+        });
+        break;
+      case 2:
+        window.location.href = "https://wa.link/fmhf1i"
+        break;
+      default:
+        break;
     }
   };
 
@@ -30,9 +40,9 @@ export default function SimpleBottomNavigation() {
         onChange={(event, newValue) => {
           setValue(newValue);
         }}>
-        <BottomNavigationAction icon={<MenuIcon style={{ color: selectedIndex === 0 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(0)} />
-        <BottomNavigationAction icon={<HomeIcon style={{ color: selectedIndex === 1 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(1)} />
-        <BottomNavigationAction icon={<FavoriteIcon style={{ color: selectedIndex === 2 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(2)} />
+        <BottomNavigationAction icon={<InstagramIcon style={{ color: selectedIndex === 0 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(0)} />
+        <BottomNavigationAction icon={<HomeOutlinedIcon style={{ color: selectedIndex === 1 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(1)} />
+        <BottomNavigationAction icon={<WhatsAppIcon style={{ color: selectedIndex === 2 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(2)} />
       </BottomNavigation>
     </Box>
   );
@@ -43,6 +53,6 @@ const styles = {
     width: '100vw',
     position: 'fixed',
     bottom: 0,
-    backgroundColor:"#1E1E1E",
+    backgroundColor: "#1E1E1E",
   },
 };
