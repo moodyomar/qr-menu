@@ -2,8 +2,8 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 export default function SimpleBottomNavigation() {
@@ -41,7 +41,7 @@ export default function SimpleBottomNavigation() {
           setValue(newValue);
         }}>
         <BottomNavigationAction icon={<InstagramIcon style={{ color: selectedIndex === 0 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(0)} />
-        <BottomNavigationAction icon={<HomeOutlinedIcon style={{ color: selectedIndex === 1 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(1)} />
+        <BottomNavigationAction icon={<ArrowUpwardIcon style={{ color: selectedIndex === 1 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(1)} />
         <BottomNavigationAction icon={<WhatsAppIcon style={{ color: selectedIndex === 2 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(2)} />
       </BottomNavigation>
     </Box>

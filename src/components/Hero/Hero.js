@@ -51,6 +51,7 @@ const useStyles = makeStyles({
     },
   },});
 
+
 const Hero = () => {
   const classes = useStyles();
 

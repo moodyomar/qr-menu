@@ -13,6 +13,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import flagAR from '../../languages/flags/Ar.png';
 import flagHE from '../../languages//flags/He.png';
+import content from "../../json/content-hr.json";
 
 
 function ResponsiveAppBar() {
@@ -21,10 +22,6 @@ function ResponsiveAppBar() {
   const [selectedLanguage, setSelectedLanguage] = React.useState("He");
 
 
-
-
-
-  const pages = ['Products', 'Pricing', 'Blog'];
   const languages = ['Ar', 'He'];
 
   const handleOpenLangMenu = (event) => {
@@ -75,13 +72,13 @@ function ResponsiveAppBar() {
 
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {content.categories.map((cat) => (
               <Button
-                key={page}
+                key={cat.name}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                {cat.name}
               </Button>
             ))}
           </Box>
@@ -115,9 +112,9 @@ function ResponsiveAppBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+              {content.categories.map((cat) => (
+                <MenuItem key={cat.name}>
+                  <a href={`#${cat.name}`} style={{textDecoration:"none",color:"#1E1E1E"}}><Typography textAlign="center">{cat.name}</Typography></a>
                 </MenuItem>
               ))}
             </Menu>
