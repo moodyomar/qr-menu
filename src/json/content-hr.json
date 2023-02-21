@@ -65,12 +65,20 @@
                     "picture": "images/chocolate/cherry-chocolate.jpeg"
                 },
                 {
+                    "name": "פנקייק",
+                    "category": "שוקולד",
+                    "sku": "C",
+                    "price": 12.99,
+                    "picture": "images/chocolate/pancakes.jpeg"
+                },
+                {
                     "name": "כדורים",
                     "category": "שוקולד",
                     "sku": "CB",
                     "price": 11.99,
-                    "picture": "images/chocolate/choclate-balls.jpeg"
+                    "picture": "images/chocolate/choco-balls.jpeg"
                 },
+
                 {
                     "name": "שוקולד תות",
                     "category": "שוקולד",
@@ -114,32 +122,46 @@
             "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
             "products": [
                 {
-                    "name": "אוזני האמיין",
+                    "name": "מלאטיט",
                     "category": "קוקיז",
                     "sku": "F",
-                    "price": 7.99,
-                    "picture": "images/cookies/a.jpeg"
+                    "price": 25,
+                    "picture": "images/cookies/mlatet.jpeg"
                 },
                 {
-                    "name": "בסקויט בוטנים",
+                    "name": "אוזני המין",
+                    "category": "קוקיז",
+                    "sku": "F",
+                    "price": 25,
+                    "picture": "images/cookies/ozni-hamen.jpeg"
+                },
+                {
+                    "name": "מברושה",
+                    "category": "קוקיז",
+                    "sku": "F",
+                    "price": 25,
+                    "picture": "images/cookies/mabbrosha.jpeg"
+                },
+                {
+                    "name": "משהו?",
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 6.99,
-                    "picture": "images/cookies/b.jpeg"
+                    "picture": "images/cookies/aa1.jpeg"
                 },
                 {
-                    "name": "שופאן בדבש",
+                    "name": "משהו?",
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 6.99,
-                    "picture": "images/cookies/c.jpeg"
+                    "picture": "images/cookies/aa2.jpeg"
                 },
                 {
                     "name": "בסקויט טחינה",
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 6.99,
-                    "picture": "images/cookies/d.jpeg"
+                    "picture": "images/cookies/tahini.jpeg"
                 },
                 {
                     "name": "משולגת",
@@ -154,6 +176,20 @@
                     "sku": "FB",
                     "price": 6.99,
                     "picture": "images/cookies/moksrat-honey.jpeg"
+                },
+                {
+                    "name": "בסקויט דבש",
+                    "category": "קוקיז",
+                    "sku": "FB",
+                    "price": 6.99,
+                    "picture": "images/cookies/c.jpeg"
+                },
+                {
+                    "name": "בסקויט דבש",
+                    "category": "קוקיז",
+                    "sku": "FB",
+                    "price": 6.99,
+                    "picture": "images/cookies/d.jpeg"
                 }
             ]
         },
@@ -198,18 +234,46 @@
             "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
             "products": [
                 {
-                    "name": "מגרוטה סמיד",
+                    "name": "תמר סמיד",
                     "category": "תמרים",
                     "sku": "D",
                     "price": 40,
-                    "picture": "images/dates/magrota.jpeg"
+                    "picture": "images/dates/mgrota.jpeg"
+                },
+                {
+                    "name": "מגרוטה 2",
+                    "category": "תמרים",
+                    "sku": "D",
+                    "price": 40,
+                    "picture": "images/dates/magrota-choclate.jpeg"
                 },
                 {
                     "name": "מעמולים",
                     "category": "תמרים",
                     "sku": "D",
                     "price": 40,
-                    "picture": "images/dates/mamool.jpeg"
+                    "picture": "images/dates/mamol.jpeg"
+                },
+                {
+                    "name": "מעורב",
+                    "category": "תמרים",
+                    "sku": "D",
+                    "price": 40,
+                    "picture": "images/dates/mixed.jpeg"
+                },
+                {
+                    "name": "דונטס תמר",
+                    "category": "תמרים",
+                    "sku": "D",
+                    "price": 40,
+                    "picture": "images/dates/zrd.jpeg"
+                },
+                {
+                    "name": "תמר פסטוק",
+                    "category": "תמרים",
+                    "sku": "D",
+                    "price": 40,
+                    "picture": "images/dates/magrota-2.jpeg"
                 }
             ]
         },
@@ -224,6 +288,55 @@
                     "sku": "E",
                     "price": 14,
                     "picture": "images/hotdrinks/a.jpeg"
+                },
+                {
+                    "name": "עוד משהו...",
+                    "category": "שתיה חמה",
+                    "sku": "EB",
+                    "price": "12",
+                    "picture": "images/hotdrinks/ns2.jpeg"
+                },
+                {
+                    "name": "אספרסו קצר",
+                    "category": "שתיה חמה",
+                    "sku": "EB",
+                    "price": "10",
+                    "picture": "images/hotdrinks/nespresso.jpeg"
+                },
+                {
+                    "name": "הפוך",
+                    "category": "שתיה חמה",
+                    "sku": "EB",
+                    "price": "12/14",
+                    "picture": "images/hotdrinks/ns.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "ימי הולדת",
+            "image": "images/categories/bdays.jpeg",
+            "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
+            "products": [
+                {
+                    "name": "יום הולדת 1",
+                    "category": "ימי הולדת",
+                    "sku": "E",
+                    "price": 200,
+                    "picture": "images/bdays/bdays.jpeg"
+                },
+                {
+                    "name": "יום הולדת 2",
+                    "category": "ימי הולדת",
+                    "sku": "E",
+                    "price": 160,
+                    "picture": "images/bdays/carmel.jpeg"
+                },
+                {
+                    "name": "יום הולדת 3",
+                    "category": "ימי הולדת",
+                    "sku": "E",
+                    "price": 190,
+                    "picture": "images/bdays/4-types.jpeg"
                 },
                 {
                     "name": "הפוך",
