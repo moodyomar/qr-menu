@@ -52,11 +52,18 @@
                     "picture": "images/lotus/b.jpeg"
                 },
                 {
+                    "name": "تريليتشا فستق",
+                    "category": "לוטוס",
+                    "sku": "AB",
+                    "price": "20/45",
+                    "picture": "images/mains/terelisha-festock.jpeg"
+                },
+                {
                     "name": "فستق حلبي",
-                    "category": "الاكثر طلباً",
+                    "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
-                    "picture": ""
+                    "picture": "images/mains/festock.jpeg"
                 },
                 {
                     "name": "خشخش",
@@ -73,7 +80,7 @@
                     "picture": ""
                 },
                 {
-                    "name": "مغمليه",
+                    "name": "المخملية",
                     "category": "الاكثر طلباً",
                     "sku": "BB",
                     "price": "20/45",
@@ -156,6 +163,13 @@
                     "sku": "CB",
                     "price": 25,
                     "picture": "images/chocolate/sofle.jpeg"
+                },
+                {
+                    "name": "بافل بلجي",
+                    "category": "שוקולד",
+                    "sku": "CB",
+                    "price": 25,
+                    "picture": "images/chocolate/baffel.jpeg"
                 }
             ]
         },
@@ -295,21 +309,21 @@
                     "category": "بارد",
                     "sku": "BB",
                     "price": 6,
-                    "picture": ""
+                    "picture": "images/softdrinks/soda.jpeg"
                 },
                 {
                     "name": "شويبس",
                     "category": "بارد",
                     "sku": "BB",
                     "price": 6,
-                    "picture": ""
+                    "picture": "images/softdrinks/shwips.jpeg"
                 },
                 {
                     "name": "بريغات",
                     "category": "بارد",
                     "sku": "BB",
                     "price": 6,
-                    "picture": ""
+                    "picture": "images/softdrinks/prigat.jpeg"
                 },
                 {
                     "name": "كولا",
@@ -322,8 +336,8 @@
                     "name": "مي",
                     "category": "بارد",
                     "sku": "BB",
-                    "price": "7/15",
-                    "picture": ""
+                                       "price": "5",
+                    "picture": "images/softdrinks/water.jpeg"
                 }
             ]
         },
@@ -466,7 +480,7 @@
                     "picture": "images/bdays/4-types.jpeg"
                 },
                 {
-                    "name": "ما اعرف",
+                    "name": "شي كعكه",
                     "category": "مناسبات",
                     "sku": "EB",
                     "price": "12/14",
