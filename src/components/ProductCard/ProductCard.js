@@ -6,7 +6,7 @@ export default function MultiActionAreaCard({product:{name,price,picture}}) {
 const defaultPic = picture ? picture : "logo-t.png"
 
   return (
-    <div className="food-card">
+    <div className="food-card" data-aos={`zoom-in`} data-aos-duration="1000">
     <div className="food-card-img-container">
       <img src={defaultPic} alt="Food Item" />
       <div className="food-card-title-container">

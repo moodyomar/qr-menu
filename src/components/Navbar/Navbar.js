@@ -37,6 +37,11 @@ function ResponsiveAppBar() {
     setSelectedLanguage(lng);
     changeLang(lng)
     handleCloseLangMenu();
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
   };
 
   const handleOpenNavMenu = (event) => {
@@ -48,6 +53,16 @@ function ResponsiveAppBar() {
     setAnchorElNav(null);
   };
 
+
+  const handleScroll = (e) => {
+    console.log(e);
+  }
+
+  React.useEffect(() => {
+  
+    
+  
+  },[] )
 
 
   return (
@@ -93,6 +108,7 @@ function ResponsiveAppBar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
+              onScroll={handleScroll}
               color="inherit"
             >
               <MenuIcon />
@@ -116,7 +132,7 @@ function ResponsiveAppBar() {
               }}
             >
               {contentLng.categories.map((cat) => (
-                <MenuItem key={cat.name}>
+                <MenuItem key={cat.name} onClick={handleCloseNavMenu}>
                   <a href={`#${cat.name}`} style={{textDecoration:"none",color:"#1E1E1E"}}><Typography textAlign="center">{cat.name}</Typography></a>
                 </MenuItem>
               ))}
