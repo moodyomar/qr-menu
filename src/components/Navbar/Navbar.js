@@ -11,8 +11,8 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import flagAR from '../../languages/flags/Ar.png';
-import flagHE from '../../languages//flags/He.png';
+import flagAR from '../../languages/flags/Ar.svg';
+import flagHE from '../../languages//flags/He.svg';
 import heContent from "../../json/content-hr.json"
 import arContent from "../../json/content-ar.json"
 import LanguageContext from '../../contexts/LanguageSwitcher'
@@ -51,7 +51,7 @@ function ResponsiveAppBar() {
 
 
   return (
-    <AppBar position="static" sx={{ bgcolor: "#1E1E1E" }}>
+    <AppBar position="fixed" sx={{ bgcolor: "#1E1E1E" }}>
       <Container>
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
