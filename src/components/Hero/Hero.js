@@ -9,6 +9,7 @@ const useStyles = makeStyles({
     backgroundImage: "url(hero.jpg)",
     backgroundSize: "cover",
     height: "225px",
+    marginTop:"48px",
     position: "relative",
     overflow: "hidden"
   },

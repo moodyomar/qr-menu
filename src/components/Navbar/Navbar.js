@@ -11,8 +11,8 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import flagAR from '../../languages/flags/Ar.png';
-import flagHE from '../../languages//flags/He.png';
+import flagAR from '../../languages/flags/Ar.svg';
+import flagHE from '../../languages//flags/He.svg';
 import heContent from "../../json/content-hr.json"
 import arContent from "../../json/content-ar.json"
 import LanguageContext from '../../contexts/LanguageSwitcher'
@@ -37,6 +37,11 @@ function ResponsiveAppBar() {
     setSelectedLanguage(lng);
     changeLang(lng)
     handleCloseLangMenu();
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
   };
 
   const handleOpenNavMenu = (event) => {
@@ -49,9 +54,19 @@ function ResponsiveAppBar() {
   };
 
 
+  const handleScroll = (e) => {
+    console.log(e);
+  }
+
+  React.useEffect(() => {
+  
+    
+  
+  },[] )
+
 
   return (
-    <AppBar position="static" sx={{ bgcolor: "#1E1E1E" }}>
+    <AppBar position="fixed" sx={{ bgcolor: "#1E1E1E" }}>
       <Container>
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -93,6 +108,7 @@ function ResponsiveAppBar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
+              onScroll={handleScroll}
               color="inherit"
             >
               <MenuIcon />
@@ -116,7 +132,7 @@ function ResponsiveAppBar() {
               }}
             >
               {contentLng.categories.map((cat) => (
-                <MenuItem key={cat.name}>
+                <MenuItem key={cat.name} onClick={handleCloseNavMenu}>
                   <a href={`#${cat.name}`} style={{textDecoration:"none",color:"#1E1E1E"}}><Typography textAlign="center">{cat.name}</Typography></a>
                 </MenuItem>
               ))}

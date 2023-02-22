@@ -1,7 +1,6 @@
 {
-    "catTitle":"קטגוריות",
-    "catDesc":"קינוחים שווים וטעימים מאוד",
-
+    "catTitle": "קטגוריות",
+    "catDesc": "קינוחים שווים וטעימים מאוד",
     "categories": [
         {
             "name": "ראשיות 🧁",
@@ -21,8 +20,7 @@
                     "sku": "BB",
                     "price": "15/40",
                     "picture": "images/mains/bsbosa.jpeg"
-                }
-                ,
+                },
                 {
                     "name": "גבינה אפויה",
                     "category": "ראשיות",
@@ -39,24 +37,31 @@
                 },
                 {
                     "name": "עוגת לוטוס",
-                    "category": "לוטוס",
+                    "category": "ראשיות",
                     "sku": "A",
                     "price": "20/45",
                     "picture": "images/lotus/a.jpeg"
                 },
                 {
                     "name": "ריבת חלב",
-                    "category": "לוטוס",
+                    "category": "ראשיות",
                     "sku": "AB",
                     "price": "20/45",
                     "picture": "images/lotus/b.jpeg"
+                },
+                {
+                    "name": "טרילישה פיסטוק",
+                    "category": "ראשיות",
+                    "sku": "AB",
+                    "price": "20/45",
+                    "picture": "images/mains/terelisha-festock.jpeg"
                 },
                 {
                     "name": "פיסטוק",
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
-                    "picture": ""
+                    "picture": "images/mains/festock.jpeg"
                 },
                 {
                     "name": "כשכש",
@@ -73,7 +78,7 @@
                     "picture": ""
                 },
                 {
-                    "name": "מע׳מליה",
+                    "name": "מכמליה",
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
@@ -142,7 +147,6 @@
                     "price": "15 = 10",
                     "picture": "images/chocolate/choco-balls.jpeg"
                 },
-
                 {
                     "name": "שוקולד תות",
                     "category": "שוקולד",
@@ -156,11 +160,18 @@
                     "sku": "CB",
                     "price": 25,
                     "picture": "images/chocolate/sofle.jpeg"
+                },
+                {
+                    "name": "באפל בלגי",
+                    "category": "שוקולד",
+                    "sku": "CB",
+                    "price": 25,
+                    "picture": "images/chocolate/baffel.jpeg"
                 }
             ]
         },
         {
-            "name": "🍪 קוקיז 🍪",
+            "name": "קוקיז 🍪",
             "image": "images/categories/cookies.jpeg",
             "desc": "מבחר טעים ושונה של קוקיז ספאא סוייטס",
             "products": [
@@ -211,21 +222,21 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 25,
-                    "picture": "images/cookies/lotus.jpeg"
+                    "picture": ""
                 },
                 {
                     "name": "קוקיז נוטלה",
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 25,
-                    "picture": "images/cookies/notella.jpeg"
+                    "picture": ""
                 },
                 {
                     "name": "ריבת תות",
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 25,
-                    "picture": "images/cookies/straw-jam.jpeg"
+                    "picture": ""
                 },
                 {
                     "name": "לחם צהוב",
@@ -295,21 +306,21 @@
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": 6,
-                    "picture": ""
+                    "picture": "images/softdrinks/soda.jpeg"
                 },
                 {
                     "name": "שויפס",
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": 6,
-                    "picture": ""
+                    "picture": "images/softdrinks/shwips.jpeg"
                 },
                 {
                     "name": "פריגת",
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": 6,
-                    "picture": ""
+                    "picture": "images/softdrinks/prigat.jpeg"
                 },
                 {
                     "name": "קולה",
@@ -322,8 +333,8 @@
                     "name": "מים",
                     "category": "שתיה קלה",
                     "sku": "BB",
-                    "price": "7/15",
-                    "picture": ""
+                    "price": "5",
+                    "picture": "images/softdrinks/water.jpeg"
                 }
             ]
         },

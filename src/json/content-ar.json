@@ -4,20 +4,20 @@
 
     "categories": [
         {
-            "name": "الاكثر طلباً 🧁",
+            "name": "كعكات 🧁",
             "image": "images/categories/baked-cheese.jpeg",
             "desc": "من الاكثر طلباً، الجبنه المخبوزه، تريليتشا واكثر",
             "products": [
                 {
                     "name": "تريليتشا",
-                    "category": "الاكثر طلباً",
+                    "category": "كعكات",
                     "sku": "B",
                     "price": "15/45/85",
                     "picture": "images/mains/terelisha.JPG"
                 },
                 {
                     "name": "بسبوسه",
-                    "category": "الاكثر طلباً",
+                    "category": "كعكات",
                     "sku": "BB",
                     "price": "15/40",
                     "picture": "images/mains/bsbosa.jpeg"
@@ -25,14 +25,14 @@
                 ,
                 {
                     "name": "جبنه مخبوزه",
-                    "category": "الاكثر طلباً",
+                    "category": "كعكات",
                     "sku": "BB",
                     "price": "25/50",
                     "picture": "images/mains/baked-cheese.jpeg"
                 },
                 {
                     "name": "ليالي بيروت",
-                    "category": "الاكثر طلباً",
+                    "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
                     "picture": "images/mains/lyali-beirut.jpeg"
@@ -52,50 +52,57 @@
                     "picture": "images/lotus/b.jpeg"
                 },
                 {
+                    "name": "تريليتشا فستق",
+                    "category": "לוטוס",
+                    "sku": "AB",
+                    "price": "20/45",
+                    "picture": "images/mains/terelisha-festock.jpeg"
+                },
+                {
                     "name": "فستق حلبي",
-                    "category": "الاكثر طلباً",
+                    "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
-                    "picture": ""
+                    "picture": "images/mains/festock.jpeg"
                 },
                 {
                     "name": "خشخش",
-                    "category": "الاكثر طلباً",
+                    "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
                     "picture": ""
                 },
                 {
                     "name": "فريرو",
-                    "category": "الاكثر طلباً",
+                    "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
                     "picture": ""
                 },
                 {
-                    "name": "مغمليه",
-                    "category": "الاكثر طلباً",
+                    "name": "المخملية",
+                    "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
                     "picture": ""
                 },
                 {
                     "name": "اوريو",
-                    "category": "الاكثر طلباً",
+                    "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
                     "picture": ""
                 },
                 {
                     "name": "الغابه السوداء",
-                    "category": "الاكثر طلباً",
+                    "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
                     "picture": ""
                 },
                 {
                     "name": "جلي",
-                    "category": "الاكثر طلباً",
+                    "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
                     "picture": ""
@@ -156,6 +163,13 @@
                     "sku": "CB",
                     "price": 25,
                     "picture": "images/chocolate/sofle.jpeg"
+                },
+                {
+                    "name": "بافل بلجي",
+                    "category": "שוקולד",
+                    "sku": "CB",
+                    "price": 25,
+                    "picture": "images/chocolate/baffel.jpeg"
                 }
             ]
         },
@@ -295,21 +309,21 @@
                     "category": "بارد",
                     "sku": "BB",
                     "price": 6,
-                    "picture": ""
+                    "picture": "images/softdrinks/soda.jpeg"
                 },
                 {
                     "name": "شويبس",
                     "category": "بارد",
                     "sku": "BB",
                     "price": 6,
-                    "picture": ""
+                    "picture": "images/softdrinks/shwips.jpeg"
                 },
                 {
                     "name": "بريغات",
                     "category": "بارد",
                     "sku": "BB",
                     "price": 6,
-                    "picture": ""
+                    "picture": "images/softdrinks/prigat.jpeg"
                 },
                 {
                     "name": "كولا",
@@ -322,8 +336,8 @@
                     "name": "مي",
                     "category": "بارد",
                     "sku": "BB",
-                    "price": "7/15",
-                    "picture": ""
+                                       "price": "5",
+                    "picture": "images/softdrinks/water.jpeg"
                 }
             ]
         },
@@ -466,7 +480,7 @@
                     "picture": "images/bdays/4-types.jpeg"
                 },
                 {
-                    "name": "ما اعرف",
+                    "name": "شي كعكه",
                     "category": "مناسبات",
                     "sku": "EB",
                     "price": "12/14",
