@@ -4,7 +4,7 @@
 
     "categories": [
         {
-            "name": "🧁 ראשיות 🧁",
+            "name": "ראשיות 🧁",
             "image": "images/categories/baked-cheese.jpeg",
             "desc": "הכי מבוקשים שלנו, גבינה אפויה, טרילישה ועוד",
             "products": [
@@ -19,27 +19,91 @@
                     "name": "בסבוסה",
                     "category": "ראשיות",
                     "sku": "BB",
-                    "price": 2.99,
+                    "price": "15/40",
                     "picture": "images/mains/bsbosa.jpeg"
-                },
+                }
+                ,
                 {
                     "name": "גבינה אפויה",
                     "category": "ראשיות",
                     "sku": "BB",
-                    "price": 2.99,
+                    "price": "25/50",
                     "picture": "images/mains/baked-cheese.jpeg"
                 },
                 {
                     "name": "ליאלי בירות",
                     "category": "ראשיות",
                     "sku": "BB",
-                    "price": 2.99,
+                    "price": "20/45",
                     "picture": "images/mains/lyali-beirut.jpeg"
+                },
+                {
+                    "name": "עוגת לוטוס",
+                    "category": "לוטוס",
+                    "sku": "A",
+                    "price": "20/45",
+                    "picture": "images/lotus/a.jpeg"
+                },
+                {
+                    "name": "ריבת חלב",
+                    "category": "לוטוס",
+                    "sku": "AB",
+                    "price": "20/45",
+                    "picture": "images/lotus/b.jpeg"
+                },
+                {
+                    "name": "פיסטוק",
+                    "category": "ראשיות",
+                    "sku": "BB",
+                    "price": "20/45",
+                    "picture": ""
+                },
+                {
+                    "name": "כשכש",
+                    "category": "ראשיות",
+                    "sku": "BB",
+                    "price": "20/45",
+                    "picture": ""
+                },
+                {
+                    "name": "פררו",
+                    "category": "ראשיות",
+                    "sku": "BB",
+                    "price": "20/45",
+                    "picture": ""
+                },
+                {
+                    "name": "מע׳מליה",
+                    "category": "ראשיות",
+                    "sku": "BB",
+                    "price": "20/45",
+                    "picture": ""
+                },
+                {
+                    "name": "אוריו",
+                    "category": "ראשיות",
+                    "sku": "BB",
+                    "price": "20/45",
+                    "picture": ""
+                },
+                {
+                    "name": "יער השחור",
+                    "category": "ראשיות",
+                    "sku": "BB",
+                    "price": "20/45",
+                    "picture": ""
+                },
+                {
+                    "name": "עוגת ג׳ל",
+                    "category": "ראשיות",
+                    "sku": "BB",
+                    "price": "20/45",
+                    "picture": ""
                 }
             ]
         },
         {
-            "name": "🍫 שוקולד 🍫",
+            "name": "שוקולד 🍫",
             "image": "images/categories/chocolate.jpeg",
             "desc": "כדורי שוקולד, קריפים, פנקייס וכל מה שהלב אוהב",
             "products": [
@@ -47,35 +111,35 @@
                     "name": "עוגת קינדר",
                     "category": "שוקולד",
                     "sku": "C",
-                    "price": 12.99,
+                    "price": "20/45",
                     "picture": "images/chocolate/a.jpeg"
                 },
                 {
                     "name": "מיקס שוקולד",
                     "category": "שוקולד",
                     "sku": "CB",
-                    "price": 11.99,
+                    "price": "20/45",
                     "picture": "images/chocolate/b.jpeg"
                 },
                 {
                     "name": "דובדובן",
                     "category": "שוקולד",
                     "sku": "C",
-                    "price": 12.99,
+                    "price": "20/45",
                     "picture": "images/chocolate/cherry-chocolate.jpeg"
                 },
                 {
                     "name": "פנקייק",
                     "category": "שוקולד",
                     "sku": "C",
-                    "price": 12.99,
+                    "price": "15 = 2",
                     "picture": "images/chocolate/pancakes.jpeg"
                 },
                 {
                     "name": "כדורים",
                     "category": "שוקולד",
                     "sku": "CB",
-                    "price": 11.99,
+                    "price": "15 = 10",
                     "picture": "images/chocolate/choco-balls.jpeg"
                 },
 
@@ -83,43 +147,22 @@
                     "name": "שוקולד תות",
                     "category": "שוקולד",
                     "sku": "C",
-                    "price": 12.99,
+                    "price": "15/40",
                     "picture": "images/chocolate/choco-straw.jpeg"
                 },
                 {
                     "name": "עוגת סופלי",
                     "category": "שוקולד",
                     "sku": "CB",
-                    "price": 11.99,
+                    "price": 25,
                     "picture": "images/chocolate/sofle.jpeg"
-                }
-            ]
-        },
-        {
-            "name": "🥰 לוטוס 🥰",
-            "image": "images/categories/lotus.jpeg",
-            "desc": "מהעוגות הכי מבוקשות, הלוטוס המיוחדת שלנו",
-            "products": [
-                {
-                    "name": "עוגת לוטוס",
-                    "category": "לוטוס",
-                    "sku": "A",
-                    "price": 9.99,
-                    "picture": "images/lotus/a.jpeg"
-                },
-                {
-                    "name": "ריבת חלב",
-                    "category": "לוטוס",
-                    "sku": "AB",
-                    "price": 8.99,
-                    "picture": "images/lotus/b.jpeg"
                 }
             ]
         },
         {
             "name": "🍪 קוקיז 🍪",
             "image": "images/categories/cookies.jpeg",
-            "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
+            "desc": "מבחר טעים ושונה של קוקיז ספאא סוייטס",
             "products": [
                 {
                     "name": "מלאטיט",
@@ -189,7 +232,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 20,
-                    "picture": "images/cookies/yello-bread.jpeg"
+                    "picture": "images/cookies/yellow-bread.jpeg"
                 },
                 {
                     "name": "משולגת",
@@ -206,14 +249,14 @@
                     "picture": "images/cookies/moksrat-honey.jpeg"
                 },
                 {
-                    "name": "בסקויט דבש",
+                    "name": "לא יודע",
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 6.99,
                     "picture": "images/cookies/c.jpeg"
                 },
                 {
-                    "name": "בסקויט דבש",
+                    "name": "לא יודע",
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 6.99,
@@ -222,7 +265,7 @@
             ]
         },
         {
-            "name": "🥤 שתיה קלה 🥤",
+            "name": "קר 🥤",
             "image": "images/categories/softdrinks.jpeg",
             "desc": "בספלורה, אייס קפה, קולה ספרייט ועוד מגוון רחב",
             "products": [
@@ -252,21 +295,21 @@
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": 6,
-                    "picture": "images/softdrinks/soda.jpeg"
+                    "picture": ""
                 },
                 {
                     "name": "שויפס",
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": 6,
-                    "picture": "images/softdrinks/shwips.jpeg"
+                    "picture": ""
                 },
                 {
                     "name": "פריגת",
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": 6,
-                    "picture": "images/softdrinks/prigat.jpeg"
+                    "picture": ""
                 },
                 {
                     "name": "קולה",
@@ -280,14 +323,14 @@
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": "7/15",
-                    "picture": "images/softdrinks/water.jpeg"
+                    "picture": ""
                 }
             ]
         },
         {
-            "name": "🌴 תמרים 🌴",
+            "name": "תמרים 🌴",
             "image": "images/categories/dates.jpeg",
-            "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
+            "desc": "כל מינה סוגים של אגוזי תמרים, מעמולים, דונטס ועוד",
             "products": [
                 {
                     "name": "תמר סמיד",
@@ -297,11 +340,11 @@
                     "picture": "images/dates/mgrota.jpeg"
                 },
                 {
-                    "name": "מגרוטה 2",
+                    "name": "מגרוטה כוסמין",
                     "category": "תמרים",
                     "sku": "D",
                     "price": 40,
-                    "picture": "images/dates/magrota-choclate.jpeg"
+                    "picture": "images/dates/magrota-kusmin.jpeg"
                 },
                 {
                     "name": "מעמולים",
@@ -309,6 +352,13 @@
                     "sku": "D",
                     "price": 40,
                     "picture": "images/dates/mamol.jpeg"
+                },
+                {
+                    "name": "מעמולים כוסמין",
+                    "category": "תמרים",
+                    "sku": "D",
+                    "price": 40,
+                    "picture": "images/dates/mamol-kusmin.jpeg"
                 },
                 {
                     "name": "מעורב",
@@ -329,7 +379,7 @@
                     "category": "תמרים",
                     "sku": "D",
                     "price": 40,
-                    "picture": "images/dates/zrd-kusmin.jpeg"
+                    "picture": ""
                 },
                 {
                     "name": "תמר פסטוק",
@@ -337,20 +387,13 @@
                     "sku": "D",
                     "price": 40,
                     "picture": "images/dates/magrota-2.jpeg"
-                },
-                {
-                    "name": "תמר כוסמין",
-                    "category": "תמרים",
-                    "sku": "D",
-                    "price": 40,
-                    "picture": "images/dates/magrota-kusmin.jpeg"
                 }
             ]
         },
         {
-            "name": "☕ שתיה חמה ☕",
+            "name": "חם ☕",
             "image": "images/categories/hotdrinks.jpeg",
-            "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
+            "desc": "שוקו חם, נס קפה ועוד סוגים שונים של שתיה חמה",
             "products": [
                 {
                     "name": "הוט צו׳קלט",
@@ -397,9 +440,9 @@
             ]
         },
         {
-            "name": "🎂 ימי הולדת 🎂",
+            "name": "ימי הולדת 🎂",
             "image": "images/categories/bdays.jpeg",
-            "desc": "בלאה בלו בלי מה מו מי דודו אלו מאריו האקי דנו",
+            "desc": "עוגות לימי הולדת, חתונות וכל סוגי האירועים",
             "products": [
                 {
                     "name": "יום הולדת 1",
@@ -423,11 +466,11 @@
                     "picture": "images/bdays/4-types.jpeg"
                 },
                 {
-                    "name": "הפוך",
-                    "category": "שתיה חמה",
+                    "name": "עוד עוגה",
+                    "category": "ימי הולדת",
                     "sku": "EB",
-                    "price": "12/14",
-                    "picture": "images/hotdrinks/hafokh.jpeg"
+                    "price": "00",
+                    "picture": ""
                 }
             ]
         }
