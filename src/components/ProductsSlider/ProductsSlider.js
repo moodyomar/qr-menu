@@ -1,11 +1,15 @@
 import './ProductsSlider.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import content from "../../json/content-hr.json";
+import heContent from "../../json/content-hr.json"
+import arContent from "../../json/content-ar.json"
 import { Title } from '../';
 import { CategoryCard } from '..';
 
-const ProductsSlider = () => {
+const ProductsSlider = ({language}) => {
+
+  const contentLng = language === 'Ar' ? arContent : heContent
+
 
   const responsive = {
     superLargeDesktop: {
@@ -31,12 +35,12 @@ const ProductsSlider = () => {
 
     <div className='ProductsSlider'>
       <Title category={{
-        "name": content.catTitle,
-        "desc": content.catDesc
+        "name": contentLng.catTitle,
+        "desc": contentLng.catDesc
       }} />
       <Carousel responsive={responsive} autoPlay={true}
         autoPlaySpeed={3000} partialVisible={false} rewind={true} rewindWithAnimation={true} rtl={true}>
-        {content.categories.map((category, i) => (
+        {contentLng.categories.map((category, i) => (
           <a href={`#${category.name}`}><CategoryCard key={i} category={category} /></a>
         ))}
       </Carousel>

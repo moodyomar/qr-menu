@@ -1,17 +1,20 @@
 import { ProductCard, Title } from '../'
 import Grid from '@material-ui/core/Grid'
-import content from "../../json/content-hr.json"
+import heContent from "../../json/content-hr.json"
+import arContent from "../../json/content-ar.json"
 import './ProductsArea.css'
 import React from 'react'
 
 
-const ProductsArea = () => {
+const ProductsArea = ({language}) => {
+
+  const contentLng = language === 'Ar' ? arContent : heContent
 
   return (
 
     <div className='ProductsArea' style={{ padding: '15px' }}>
       <Grid container spacing={2} style={styles.flex} rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-        {content.categories.map((category, i) => (
+        {contentLng.categories.map((category, i) => (
           <React.Fragment key={i}>
             {/* Each Category Title */}
             <Title category={category}/>

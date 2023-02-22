@@ -13,15 +13,17 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import flagAR from '../../languages/flags/Ar.png';
 import flagHE from '../../languages//flags/He.png';
-import content from "../../json/content-hr.json";
+import heContent from "../../json/content-hr.json"
+import arContent from "../../json/content-ar.json"
+import LanguageContext from '../../contexts/LanguageSwitcher'
 
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElLang, setAnchorElLang] = React.useState(null);
   const [selectedLanguage, setSelectedLanguage] = React.useState("He");
-
-
+  const { language, changeLang} = React.useContext(LanguageContext);
+  const contentLng = language === 'Ar' ? arContent : heContent
   const languages = ['Ar', 'He'];
 
   const handleOpenLangMenu = (event) => {
@@ -30,9 +32,10 @@ function ResponsiveAppBar() {
   const handleCloseLangMenu = () => {
     setAnchorElLang(null);
   };
-  const handleLanguageChange = (language) => {
+  const handleLanguageChange = (lng) => {
     // Add code to change the language here
-    setSelectedLanguage(language);
+    setSelectedLanguage(lng);
+    changeLang(lng)
     handleCloseLangMenu();
   };
 
@@ -72,7 +75,7 @@ function ResponsiveAppBar() {
 
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {content.categories.map((cat) => (
+            {contentLng.categories.map((cat) => (
               <Button
                 key={cat.name}
                 onClick={handleCloseNavMenu}
@@ -112,7 +115,7 @@ function ResponsiveAppBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {content.categories.map((cat) => (
+              {contentLng.categories.map((cat) => (
                 <MenuItem key={cat.name}>
                   <a href={`#${cat.name}`} style={{textDecoration:"none",color:"#1E1E1E"}}><Typography textAlign="center">{cat.name}</Typography></a>
                 </MenuItem>
