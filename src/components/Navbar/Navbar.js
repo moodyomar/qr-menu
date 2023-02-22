@@ -13,17 +13,17 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import flagAR from '../../languages/flags/Ar.png';
 import flagHE from '../../languages//flags/He.png';
+import heContent from "../../json/content-hr.json"
+import arContent from "../../json/content-ar.json"
+import LanguageContext from '../../contexts/LanguageSwitcher'
 
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElLang, setAnchorElLang] = React.useState(null);
   const [selectedLanguage, setSelectedLanguage] = React.useState("He");
-
-
-
-
-  const pages = ['Products', 'Pricing', 'Blog'];
+  const { language, changeLang} = React.useContext(LanguageContext);
+  const contentLng = language === 'Ar' ? arContent : heContent
   const languages = ['Ar', 'He'];
 
   const handleOpenLangMenu = (event) => {
@@ -32,9 +32,10 @@ function ResponsiveAppBar() {
   const handleCloseLangMenu = () => {
     setAnchorElLang(null);
   };
-  const handleLanguageChange = (language) => {
+  const handleLanguageChange = (lng) => {
     // Add code to change the language here
-    setSelectedLanguage(language);
+    setSelectedLanguage(lng);
+    changeLang(lng)
     handleCloseLangMenu();
   };
 
@@ -51,7 +52,7 @@ function ResponsiveAppBar() {
 
   return (
     <AppBar position="static" sx={{ bgcolor: "#1E1E1E" }}>
-      <Container maxWidth="xl">
+      <Container>
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
@@ -69,19 +70,18 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
           </Typography>
 
 
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {contentLng.categories.map((cat) => (
               <Button
-                key={page}
+                key={cat.name}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                {cat.name}
               </Button>
             ))}
           </Box>
@@ -101,13 +101,13 @@ function ResponsiveAppBar() {
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
+                vertical: 'top',
+                horizontal: 'right',
               }}
               keepMounted
               transformOrigin={{
                 vertical: 'top',
-                horizontal: 'left',
+                horizontal: 'right',
               }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
@@ -115,9 +115,9 @@ function ResponsiveAppBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+              {contentLng.categories.map((cat) => (
+                <MenuItem key={cat.name}>
+                  <a href={`#${cat.name}`} style={{textDecoration:"none",color:"#1E1E1E"}}><Typography textAlign="center">{cat.name}</Typography></a>
                 </MenuItem>
               ))}
             </Menu>

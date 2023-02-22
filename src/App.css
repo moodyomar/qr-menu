@@ -9,4 +9,5 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
     font-family: 'Fredoka', sans-serif;
+    direction: rtl;
 }

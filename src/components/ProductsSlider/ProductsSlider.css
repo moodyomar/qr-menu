@@ -5,3 +5,7 @@
 .ProductsSlider p{
     padding: 15px;
 }
+
+.react-multi-carousel-dot-list{
+    bottom: 130px !important;
+}
