@@ -4,13 +4,20 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";import App from './App';
+import { LanguageProvider } from './contexts/LanguageSwitcher';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: 
+    <LanguageProvider>
+      <App/>
+    </LanguageProvider>
+    ,
   },
 ]);
 
