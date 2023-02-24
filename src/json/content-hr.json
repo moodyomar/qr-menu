@@ -222,21 +222,21 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 25,
-                    "picture": ""
+                    "picture": "images/cookies/lotus-cookies.jpeg"
                 },
                 {
                     "name": "קוקיז נוטלה",
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 25,
-                    "picture": ""
+                    "picture": "images/cookies/choco-cookies.jpeg"
                 },
                 {
                     "name": "ריבת תות",
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 25,
-                    "picture": ""
+                    "picture": "images/cookies/jam-cookies.jpeg"
                 },
                 {
                     "name": "לחם צהוב",
