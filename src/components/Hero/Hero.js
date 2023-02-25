@@ -6,7 +6,6 @@ import "./Hero.css"
 
 const useStyles = makeStyles({
   root: {
-    backgroundImage: "url(hero.webp)",
     backgroundSize: "cover",
     height: "225px",
     marginTop:"48px",
@@ -58,7 +57,7 @@ const Hero = ({endPoint}) => {
 
   return (
     <div className={classes.shapeDivider}>
-      <Box className={classes.root}>
+      <Box className={classes.root} style={{backgroundImage: `url(${endPoint}hero.webp)`,}}>
         <Box className={classes.overlay} />
         <img className={classes.logo} src={`${endPoint}logo-t.png`} alt="Logo" />
       </Box>
