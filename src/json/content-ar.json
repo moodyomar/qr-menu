@@ -79,7 +79,7 @@
                     "sku": "BB",
                     "price": "20/45",
                     "desc":"",
-                    "picture": ""
+                    "picture": "images/mains/khshkhsh.webp"
                 },
                 {
                     "name": "فريرو",
@@ -538,31 +538,31 @@
                     "sku": "E",
                     "price": 140,
                     "desc":"",
-                    "picture": "images/bdays/bdays.jpeg"
+                    "picture": "images/bdays/bdays.webp"
                 },
                 {
-                    "name": "ما اعرف",
+                    "name": "ريبات حلاڤ",
                     "category": "مناسبات",
                     "sku": "E",
-                    "price": 160,
+                    "price": 140,
                     "desc":"",
-                    "picture": "images/bdays/carmel.jpeg"
+                    "picture": "images/bdays/carmel.webp"
                 },
                 {
                     "name": "كعكه ٤ طعمات",
                     "category": "مناسبات",
                     "sku": "E",
-                    "price": 190,
+                    "price": 120,
                     "desc":"",
-                    "picture": "images/bdays/4-types.jpeg"
+                    "picture": "images/bdays/4-types.webp"
                 },
                 {
-                    "name": "شي كعكه",
+                    "name": "كعكه الفريرو",
                     "category": "مناسبات",
                     "sku": "EB",
                     "price": "12/14",
                     "desc":"",
-                    "picture": ""
+                    "picture": "images/bdays/frro.webp"
                 }
             ]
         }

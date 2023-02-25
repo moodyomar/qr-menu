@@ -77,7 +77,7 @@
                     "sku": "BB",
                     "price": "20/45",
                     "desc":"",
-                    "picture": ""
+                    "picture": "images/mains/khshkhsh.webp"
                 },
                 {
                     "name": "פררו",
@@ -535,31 +535,31 @@
                     "sku": "E",
                     "price": 140,
                     "desc":"",
-                    "picture": "images/bdays/bdays.jpeg"
+                    "picture": "images/bdays/bdays.webp"
                 },
                 {
-                    "name": "יום הולדת 2",
+                    "name": "עוגת ריבת חלב",
                     "category": "ימי הולדת",
                     "sku": "E",
-                    "price": 160,
+                    "price": 140,
                     "desc":"",
-                    "picture": "images/bdays/carmel.jpeg"
+                    "picture": "images/bdays/carmel.webp"
                 },
                 {
                     "name": "עוגת 4 טעמים",
                     "category": "ימי הולדת",
                     "sku": "E",
-                    "price": 190,
+                    "price": 120,
                     "desc":"",
-                    "picture": "images/bdays/4-types.jpeg"
+                    "picture": "images/bdays/4-types.webp"
                 },
                 {
-                    "name": "עוד עוגה",
+                    "name": "עוגת פררו",
                     "category": "ימי הולדת",
                     "sku": "EB",
                     "price": "00",
                     "desc":"",
-                    "picture": ""
+                    "picture": "images/bdays/frro.webp"
                 }
             ]
         }
