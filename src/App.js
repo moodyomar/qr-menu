@@ -7,21 +7,22 @@ import 'aos/dist/aos.css';
 
 
 const App = () => {
-
+    
     AOS.init({
         offset: 200,
-      });
-
+    });
+    
     const { language } = React.useContext(LanguageContext);
-
+    
+    const endPoint = ""
 
     return (
 
         <div className='App' style={{ textAlign: "center" }}>
-            <Navbar />
-            <Hero />
-            <ProductsSlider language={language} />
-            <ProductsArea language={language} />
+            <Navbar/>
+            <Hero endPoint={endPoint}/>
+            <ProductsSlider language={language} endPoint={endPoint} />
+            <ProductsArea language={language} endPoint={endPoint}/>
             <BottomNavbar />
         </div>
 
