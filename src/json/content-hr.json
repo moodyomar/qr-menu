@@ -12,6 +12,7 @@
                     "category": "ראשיות",
                     "sku": "B",
                     "price": "15/45/85",
+                    "desc":"",
                     "picture": "images/mains/terelisha.webp"
                 },
                 {
@@ -19,6 +20,7 @@
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "15/40",
+                    "desc":"",
                     "picture": "images/mains/bsbosa.webp"
                 },
                 {
@@ -26,6 +28,7 @@
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "25/50",
+                    "desc":"",
                     "picture": "images/mains/baked-cheese.webp"
                 },
                 {
@@ -33,6 +36,7 @@
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/mains/lyali-beirut.webp"
                 },
                 {
@@ -40,6 +44,7 @@
                     "category": "ראשיות",
                     "sku": "A",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/lotus/a.jpeg"
                 },
                 {
@@ -47,6 +52,7 @@
                     "category": "ראשיות",
                     "sku": "AB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/lotus/b.jpeg"
                 },
                 {
@@ -54,6 +60,7 @@
                     "category": "ראשיות",
                     "sku": "AB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/mains/terelisha-festock.webp"
                 },
                 {
@@ -61,6 +68,7 @@
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/mains/festock.webp"
                 },
                 {
@@ -68,6 +76,7 @@
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 },
                 {
@@ -75,6 +84,7 @@
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 },
                 {
@@ -82,6 +92,7 @@
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 },
                 {
@@ -89,6 +100,7 @@
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 },
                 {
@@ -96,6 +108,7 @@
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 },
                 {
@@ -103,6 +116,7 @@
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 }
             ]
@@ -117,6 +131,7 @@
                     "category": "שוקולד",
                     "sku": "C",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/chocolate/a.webp"
                 },
                 {
@@ -124,6 +139,7 @@
                     "category": "שוקולד",
                     "sku": "CB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/chocolate/b.webp"
                 },
                 {
@@ -131,6 +147,7 @@
                     "category": "שוקולד",
                     "sku": "C",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/chocolate/cherry-chocolate.webp"
                 },
                 {
@@ -138,6 +155,7 @@
                     "category": "שוקולד",
                     "sku": "C",
                     "price": "15 = 2",
+                    "desc":"",
                     "picture": "images/chocolate/pancakes.webp"
                 },
                 {
@@ -145,6 +163,7 @@
                     "category": "שוקולד",
                     "sku": "CB",
                     "price": "15 = 10",
+                    "desc":"",
                     "picture": "images/chocolate/choco-balls.webp"
                 },
                 {
@@ -152,6 +171,7 @@
                     "category": "שוקולד",
                     "sku": "C",
                     "price": "15/40",
+                    "desc":"",
                     "picture": "images/chocolate/choco-straw.webp"
                 },
                 {
@@ -159,6 +179,7 @@
                     "category": "שוקולד",
                     "sku": "CB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/chocolate/sofle.webp"
                 },
                 {
@@ -166,6 +187,7 @@
                     "category": "שוקולד",
                     "sku": "CB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/chocolate/baffel.webp"
                 }
             ]
@@ -180,6 +202,7 @@
                     "category": "קוקיז",
                     "sku": "F",
                     "price": 35,
+                    "desc":"500 גרם",
                     "picture": "images/cookies/mlatet.webp"
                 },
                 {
@@ -187,6 +210,7 @@
                     "category": "קוקיז",
                     "sku": "F",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/ozni-hamen.webp"
                 },
                 {
@@ -194,6 +218,7 @@
                     "category": "קוקיז",
                     "sku": "F",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/mabbrosha.webp"
                 },
                 {
@@ -201,6 +226,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 35,
+                    "desc":"",
                     "picture": "images/cookies/aa1.webp"
                 },
                 {
@@ -208,6 +234,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 30,
+                    "desc":"",
                     "picture": "images/cookies/aa2.webp"
                 },
                 {
@@ -215,6 +242,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/tahini.webp"
                 },
                 {
@@ -222,6 +250,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/lotus-cookies.webp"
                 },
                 {
@@ -229,6 +258,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/choco-cookies.webp"
                 },
                 {
@@ -236,6 +266,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/jam-cookies.webp"
                 },
                 {
@@ -243,6 +274,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 20,
+                    "desc":"",
                     "picture": "images/cookies/yellow-bread.webp"
                 },
                 {
@@ -250,6 +282,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 30,
+                    "desc":"",
                     "picture": "images/cookies/msholeget.webp"
                 },
                 {
@@ -257,6 +290,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 30,
+                    "desc":"",
                     "picture": "images/cookies/moksrat-honey.webp"
                 },
                 {
@@ -264,6 +298,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 6.99,
+                    "desc":"",
                     "picture": "images/cookies/c.webp"
                 },
                 {
@@ -271,6 +306,7 @@
                     "category": "קוקיז",
                     "sku": "FB",
                     "price": 6.99,
+                    "desc":"",
                     "picture": "images/cookies/d.webp"
                 }
             ]
@@ -285,6 +321,7 @@
                     "category": "שתיה קלה",
                     "sku": "B",
                     "price": "5/10",
+                    "desc":"",
                     "picture": "images/softdrinks/icecafe.webp"
                 },
                 {
@@ -292,6 +329,7 @@
                     "category": "שתיה קלה",
                     "sku": "B",
                     "price": "5/10",
+                    "desc":"",
                     "picture": "images/softdrinks/bsflora.webp"
                 },
                 {
@@ -299,6 +337,7 @@
                     "category": "שתיה קלה",
                     "sku": "B",
                     "price": 6,
+                    "desc":"",
                     "picture": "images/softdrinks/xl.webp"
                 },
                 {
@@ -306,6 +345,7 @@
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": "7/15",
+                    "desc":"",
                     "picture": "images/softdrinks/sprite.webp"
                 },
                 {
@@ -313,6 +353,7 @@
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": 5,
+                    "desc":"",
                     "picture": "images/softdrinks/blu.webp"
                 },
                 {
@@ -320,6 +361,7 @@
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": 6,
+                    "desc":"",
                     "picture": "images/softdrinks/soda.webp"
                 },
                 {
@@ -327,6 +369,7 @@
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": 6,
+                    "desc":"",
                     "picture": "images/softdrinks/shwips.webp"
                 },
                 {
@@ -334,6 +377,7 @@
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": 6,
+                    "desc":"",
                     "picture": "images/softdrinks/prigat.webp"
                 },
                 {
@@ -341,6 +385,7 @@
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": "7/15",
+                    "desc":"",
                     "picture": "images/softdrinks/cola.webp"
                 },
                 {
@@ -348,6 +393,7 @@
                     "category": "שתיה קלה",
                     "sku": "BB",
                     "price": "5",
+                    "desc":"",
                     "picture": "images/softdrinks/water.webp"
                 }
             ]
@@ -362,6 +408,7 @@
                     "category": "תמרים",
                     "sku": "D",
                     "price": 40,
+                    "desc":"500 גרם",
                     "picture": "images/dates/mgrota.webp"
                 },
                 {
@@ -369,6 +416,7 @@
                     "category": "תמרים",
                     "sku": "D",
                     "price": 40,
+                    "desc":"500 גרם",
                     "picture": "images/dates/magrota-kusmin.webp"
                 },
                 {
@@ -376,6 +424,7 @@
                     "category": "תמרים",
                     "sku": "D",
                     "price": 40,
+                    "desc":"500 גרם",
                     "picture": "images/dates/mamol.webp"
                 },
                 {
@@ -383,6 +432,7 @@
                     "category": "תמרים",
                     "sku": "D",
                     "price": 40,
+                    "desc":"500 גרם",
                     "picture": "images/dates/mamol-kusmin.webp"
                 },
                 {
@@ -390,6 +440,7 @@
                     "category": "תמרים",
                     "sku": "D",
                     "price": 40,
+                    "desc":"",
                     "picture": "images/dates/mixed.webp"
                 },
                 {
@@ -397,6 +448,7 @@
                     "category": "תמרים",
                     "sku": "D",
                     "price": 35,
+                    "desc":"500 גרם",
                     "picture": "images/dates/zrd.webp"
                 },
                 {
@@ -404,13 +456,15 @@
                     "category": "תמרים",
                     "sku": "D",
                     "price": 40,
-                    "picture": ""
+                    "desc":"500 גרם",
+                    "picture": "images/dates/mamol-kusmin.webp"
                 },
                 {
                     "name": "תמר פסטוק",
                     "category": "תמרים",
                     "sku": "D",
                     "price": 40,
+                    "desc":"500 גרם",
                     "picture": "images/dates/magrota-2.webp"
                 }
             ]
@@ -425,6 +479,7 @@
                     "category": "שתיה חמה",
                     "sku": "E",
                     "price": "10/15",
+                    "desc":"",
                     "picture": "images/hotdrinks/a.webp"
                 },
                 {
@@ -432,6 +487,7 @@
                     "category": "שתיה חמה",
                     "sku": "EB",
                     "price": "10/15",
+                    "desc":"",
                     "picture": "images/hotdrinks/ns2.webp"
                 },
                 {
@@ -439,6 +495,7 @@
                     "category": "שתיה חמה",
                     "sku": "EB",
                     "price": "5/8",
+                    "desc":"",
                     "picture": "images/hotdrinks/nespresso.webp"
                 },
                 {
@@ -446,6 +503,7 @@
                     "category": "שתיה חמה",
                     "sku": "EB",
                     "price": "10/15",
+                    "desc":"",
                     "picture": "images/hotdrinks/ns.webp"
                 },
                 {
@@ -453,6 +511,7 @@
                     "category": "שתיה חמה",
                     "sku": "EB",
                     "price": "10/15",
+                    "desc":"",
                     "picture": "images/hotdrinks/sahlab.webp"
                 },
                 {
@@ -460,6 +519,7 @@
                     "category": "שתיה חמה",
                     "sku": "EB",
                     "price": "10/15",
+                    "desc":"",
                     "picture": "images/hotdrinks/shoko.webp"
                 }
             ]
@@ -474,6 +534,7 @@
                     "category": "ימי הולדת",
                     "sku": "E",
                     "price": 140,
+                    "desc":"",
                     "picture": "images/bdays/bdays.jpeg"
                 },
                 {
@@ -481,6 +542,7 @@
                     "category": "ימי הולדת",
                     "sku": "E",
                     "price": 160,
+                    "desc":"",
                     "picture": "images/bdays/carmel.jpeg"
                 },
                 {
@@ -488,6 +550,7 @@
                     "category": "ימי הולדת",
                     "sku": "E",
                     "price": 190,
+                    "desc":"",
                     "picture": "images/bdays/4-types.jpeg"
                 },
                 {
@@ -495,6 +558,7 @@
                     "category": "ימי הולדת",
                     "sku": "EB",
                     "price": "00",
+                    "desc":"",
                     "picture": ""
                 }
             ]
