@@ -557,7 +557,7 @@
                     "name": "עוגת פררו",
                     "category": "ימי הולדת",
                     "sku": "EB",
-                    "price": "00",
+                    "price": 150,
                     "desc":"",
                     "picture": "images/bdays/frro.webp"
                 }

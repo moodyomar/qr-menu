@@ -92,4 +92,17 @@
   .food-card-details-text{
     color: white;
   }
-  
+
+@media screen and (max-width: 400px) {
+  .food-card-img-container{
+max-width: 170px;
+max-height: 170px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .food-card-img-container{
+max-width: 155px;
+max-height: 155px;
+  }
+}
