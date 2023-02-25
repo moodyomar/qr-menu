@@ -1,10 +1,10 @@
 import './CategoryCard.css'
 
 
-const CategoryCard = ({category:{name,image}}) => { 
+const CategoryCard = ({category:{name,image},endPoint}) => { 
     return(
       <div className='CategoryCard' style={{
-        backgroundImage:`url(${image})`,
+        backgroundImage:`url(${endPoint}${image})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         position: 'relative',
