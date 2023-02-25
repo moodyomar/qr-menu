@@ -6,7 +6,7 @@ import arContent from "../../json/content-ar.json"
 import { Title } from '../';
 import { CategoryCard } from '..';
 
-const ProductsSlider = ({language}) => {
+const ProductsSlider = ({language,endPoint}) => {
 
   const contentLng = language === 'Ar' ? arContent : heContent
 
@@ -41,7 +41,7 @@ const ProductsSlider = ({language}) => {
       <Carousel responsive={responsive} autoPlay={true}
         autoPlaySpeed={3000} partialVisible={false} rewind={true} rewindWithAnimation={true} rtl={true}>
         {contentLng.categories.map((category, i) => (
-          <a href={`#${category.name}`}><CategoryCard key={i} category={category} /></a>
+          <a href={`#${category.name}`}><CategoryCard key={i} category={category} endPoint={endPoint}/></a>
         ))}
       </Carousel>
 

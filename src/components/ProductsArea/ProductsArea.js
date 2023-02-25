@@ -6,7 +6,7 @@ import './ProductsArea.css'
 import React from 'react'
 
 
-const ProductsArea = ({language}) => {
+const ProductsArea = ({language,endPoint}) => {
 
   const contentLng = language === 'Ar' ? arContent : heContent
 
@@ -22,7 +22,7 @@ const ProductsArea = ({language}) => {
               {category.products.map((product, i) => (
                 <Grid item xs={6} key={i}>
                   {/* Each Product In The Above Category */}
-                  <ProductCard product={product} />
+                  <ProductCard product={product} endPoint={endPoint}/>
                 </Grid>
               ))}
             </Grid>
