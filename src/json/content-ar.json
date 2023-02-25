@@ -13,6 +13,7 @@
                     "category": "كعكات",
                     "sku": "B",
                     "price": "15/45/85",
+                    "desc":"",
                     "picture": "images/mains/terelisha.webp"
                 },
                 {
@@ -20,6 +21,7 @@
                     "category": "كعكات",
                     "sku": "BB",
                     "price": "15/40",
+                    "desc":"",
                     "picture": "images/mains/bsbosa.webp"
                 }
                 ,
@@ -28,6 +30,7 @@
                     "category": "كعكات",
                     "sku": "BB",
                     "price": "25/50",
+                    "desc":"",
                     "picture": "images/mains/baked-cheese.webp"
                 },
                 {
@@ -35,6 +38,7 @@
                     "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/mains/lyali-beirut.webp"
                 },
                 {
@@ -42,6 +46,7 @@
                     "category": "لوتوس",
                     "sku": "A",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/lotus/a.jpeg"
                 },
                 {
@@ -49,6 +54,7 @@
                     "category": "لوتوس",
                     "sku": "AB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/lotus/b.jpeg"
                 },
                 {
@@ -56,6 +62,7 @@
                     "category": "לוטוס",
                     "sku": "AB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/mains/terelisha-festock.webp"
                 },
                 {
@@ -63,6 +70,7 @@
                     "category": "ראשיות",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/mains/festock.webp"
                 },
                 {
@@ -70,6 +78,7 @@
                     "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 },
                 {
@@ -77,6 +86,7 @@
                     "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 },
                 {
@@ -84,6 +94,7 @@
                     "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 },
                 {
@@ -91,6 +102,7 @@
                     "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 },
                 {
@@ -98,6 +110,7 @@
                     "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 },
                 {
@@ -105,6 +118,7 @@
                     "category": "كعكات",
                     "sku": "BB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": ""
                 }
             ]
@@ -119,6 +133,7 @@
                     "category": "شكلاطه",
                     "sku": "C",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/chocolate/a.webp"
                 },
                 {
@@ -126,6 +141,7 @@
                     "category": "شكلاطه",
                     "sku": "CB",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/chocolate/b.webp"
                 },
                 {
@@ -133,6 +149,7 @@
                     "category": "شكلاطه",
                     "sku": "C",
                     "price": "20/45",
+                    "desc":"",
                     "picture": "images/chocolate/cherry-chocolate.webp"
                 },
                 {
@@ -140,6 +157,7 @@
                     "category": "شكلاطه",
                     "sku": "C",
                     "price": "15 = 2",
+                    "desc":"",
                     "picture": "images/chocolate/pancakes.webp"
                 },
                 {
@@ -147,6 +165,7 @@
                     "category": "شكلاطه",
                     "sku": "CB",
                     "price": "15 = 10",
+                    "desc":"",
                     "picture": "images/chocolate/choco-balls.webp"
                 },
 
@@ -155,6 +174,7 @@
                     "category": "شكلاطه",
                     "sku": "C",
                     "price": "15/40",
+                    "desc":"",
                     "picture": "images/chocolate/choco-straw.webp"
                 },
                 {
@@ -162,6 +182,7 @@
                     "category": "شكلاطه",
                     "sku": "CB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/chocolate/sofle.webp"
                 },
                 {
@@ -169,6 +190,7 @@
                     "category": "שוקולד",
                     "sku": "CB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/chocolate/baffel.webp"
                 }
             ]
@@ -183,6 +205,7 @@
                     "category": "بسكويت",
                     "sku": "F",
                     "price": 35,
+                    "desc":"500 غرام",
                     "picture": "images/cookies/mlatet.webp"
                 },
                 {
@@ -190,6 +213,7 @@
                     "category": "بسكويت",
                     "sku": "F",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/ozni-hamen.webp"
                 },
                 {
@@ -197,6 +221,7 @@
                     "category": "بسكويت",
                     "sku": "F",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/mabbrosha.webp"
                 },
                 {
@@ -204,6 +229,7 @@
                     "category": "بسكويت",
                     "sku": "FB",
                     "price": 35,
+                    "desc":"",
                     "picture": "images/cookies/aa1.webp"
                 },
                 {
@@ -211,6 +237,7 @@
                     "category": "بسكويت",
                     "sku": "FB",
                     "price": 30,
+                    "desc":"",
                     "picture": "images/cookies/aa2.webp"
                 },
                 {
@@ -218,6 +245,7 @@
                     "category": "بسكويت",
                     "sku": "FB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/tahini.webp"
                 },
                 {
@@ -225,6 +253,7 @@
                     "category": "بسكويت",
                     "sku": "FB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/lotus-cookies.webp"
                 },
                 {
@@ -232,6 +261,7 @@
                     "category": "بسكويت",
                     "sku": "FB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/choco-cookies.webp"
                 },
                 {
@@ -239,6 +269,7 @@
                     "category": "بسكويت",
                     "sku": "FB",
                     "price": 25,
+                    "desc":"",
                     "picture": "images/cookies/jam-cookies.webp"
                 },
                 {
@@ -246,6 +277,7 @@
                     "category": "بسكويت",
                     "sku": "FB",
                     "price": 20,
+                    "desc":"",
                     "picture": "images/cookies/yellow-bread.webp"
                 },
                 {
@@ -253,6 +285,7 @@
                     "category": "بسكويت",
                     "sku": "FB",
                     "price": 30,
+                    "desc":"",
                     "picture": "images/cookies/msholeget.webp"
                 },
                 {
@@ -260,6 +293,7 @@
                     "category": "بسكويت",
                     "sku": "FB",
                     "price": 30,
+                    "desc":"",
                     "picture": "images/cookies/moksrat-honey.webp"
                 },
                 {
@@ -267,6 +301,7 @@
                     "category": "بسكويت",
                     "sku": "FB",
                     "price": 6.99,
+                    "desc":"",
                     "picture": "images/cookies/c.webp"
                 },
                 {
@@ -274,6 +309,7 @@
                     "category": "بسكويت",
                     "sku": "FB",
                     "price": 6.99,
+                    "desc":"",
                     "picture": "images/cookies/d.webp"
                 }
             ]
@@ -288,6 +324,7 @@
                     "category": "بارد",
                     "sku": "B",
                     "price": 6,
+                    "desc":"",
                     "picture": "images/softdrinks/icecafe.webp"
                 },
                 {
@@ -295,6 +332,7 @@
                     "category": "بارد",
                     "sku": "B",
                     "price": 6,
+                    "desc":"",
                     "picture": "images/softdrinks/bsflora.webp"
                 },
                 {
@@ -302,6 +340,7 @@
                     "category": "بارد",
                     "sku": "B",
                     "price": 6,
+                    "desc":"",
                     "picture": "images/softdrinks/xl.webp"
                 },
                 {
@@ -309,6 +348,7 @@
                     "category": "بارد",
                     "sku": "BB",
                     "price": "7/15",
+                    "desc":"",
                     "picture": "images/softdrinks/sprite.webp"
                 },
                 {
@@ -316,6 +356,7 @@
                     "category": "بارد",
                     "sku": "BB",
                     "price": 5,
+                    "desc":"",
                     "picture": "images/softdrinks/blu.webp"
                 },
                 {
@@ -323,6 +364,7 @@
                     "category": "بارد",
                     "sku": "BB",
                     "price": 6,
+                    "desc":"",
                     "picture": "images/softdrinks/soda.webp"
                 },
                 {
@@ -330,6 +372,7 @@
                     "category": "بارد",
                     "sku": "BB",
                     "price": 6,
+                    "desc":"",
                     "picture": "images/softdrinks/shwips.webp"
                 },
                 {
@@ -337,6 +380,7 @@
                     "category": "بارد",
                     "sku": "BB",
                     "price": 6,
+                    "desc":"",
                     "picture": "images/softdrinks/prigat.webp"
                 },
                 {
@@ -344,6 +388,7 @@
                     "category": "بارد",
                     "sku": "BB",
                     "price": "7/15",
+                    "desc":"",
                     "picture": "images/softdrinks/cola.webp"
                 },
                 {
@@ -351,6 +396,7 @@
                     "category": "بارد",
                     "sku": "BB",
                                        "price": "5",
+                                       "desc":"",
                     "picture": "images/softdrinks/water.webp"
                 }
             ]
@@ -365,6 +411,7 @@
                     "category": "تمر",
                     "sku": "D",
                     "price": 40,
+                    "desc":"500 غرام",
                     "picture": "images/dates/mgrota.webp"
                 },
                 {
@@ -372,6 +419,7 @@
                     "category": "تمر",
                     "sku": "D",
                     "price": 40,
+                    "desc":"500 غرام",
                     "picture": "images/dates/magrota-kusmin.webp"
                 },
                 {
@@ -379,6 +427,7 @@
                     "category": "تمر",
                     "sku": "D",
                     "price": 40,
+                    "desc":"500 غرام",
                     "picture": "images/dates/mamol.webp"
                 },
                 {
@@ -386,6 +435,7 @@
                     "category": "تمر",
                     "sku": "D",
                     "price": 40,
+                    "desc":"500 غرام",
                     "picture": "images/dates/mamol-kusmin.webp"
                 },
                 {
@@ -393,6 +443,7 @@
                     "category": "تمر",
                     "sku": "D",
                     "price": 40,
+                    "desc":"",
                     "picture": "images/dates/mixed.webp"
                 },
                 {
@@ -400,6 +451,7 @@
                     "category": "تمر",
                     "sku": "D",
                     "price": 35,
+                    "desc":"500 غرام",
                     "picture": "images/dates/zrd.webp"
                 },
                 {
@@ -407,13 +459,15 @@
                     "category": "تمر",
                     "sku": "D",
                     "price": 40,
-                    "picture": ""
+                    "desc":"",
+                    "picture": "images/dates/mamol-kusmin.webp"
                 },
                 {
                     "name": "مقروطه بفستق",
                     "category": "تمر",
                     "sku": "D",
                     "price": 40,
+                    "desc":"",
                     "picture": "images/dates/magrota-2.webp"
                 }
             ]
@@ -428,6 +482,7 @@
                     "category": "ساخن",
                     "sku": "E",
                     "price": "10/15",
+                    "desc":"",
                     "picture": "images/hotdrinks/a.webp"
                 },
                 {
@@ -435,6 +490,7 @@
                     "category": "ساخن",
                     "sku": "EB",
                     "price": "10/15",
+                    "desc":"",
                     "picture": "images/hotdrinks/ns2.webp"
                 },
                 {
@@ -442,6 +498,7 @@
                     "category": "ساخن",
                     "sku": "EB",
                     "price": "5/8",
+                    "desc":"",
                     "picture": "images/hotdrinks/nespresso.webp"
                 },
                 {
@@ -449,6 +506,7 @@
                     "category": "ساخن",
                     "sku": "EB",
                     "price": "10/15",
+                    "desc":"",
                     "picture": "images/hotdrinks/ns.webp"
                 },
                 {
@@ -456,6 +514,7 @@
                     "category": "ساخن",
                     "sku": "EB",
                     "price": "10/15",
+                    "desc":"",
                     "picture": "images/hotdrinks/sahlab.webp"
                 },
                 {
@@ -463,6 +522,7 @@
                     "category": "ساخن",
                     "sku": "EB",
                     "price": "10/15",
+                    "desc":"",
                     "picture": "images/hotdrinks/shoko.webp"
                 }
             ]
@@ -477,6 +537,7 @@
                     "category": "مناسبات",
                     "sku": "E",
                     "price": 140,
+                    "desc":"",
                     "picture": "images/bdays/bdays.jpeg"
                 },
                 {
@@ -484,6 +545,7 @@
                     "category": "مناسبات",
                     "sku": "E",
                     "price": 160,
+                    "desc":"",
                     "picture": "images/bdays/carmel.jpeg"
                 },
                 {
@@ -491,6 +553,7 @@
                     "category": "مناسبات",
                     "sku": "E",
                     "price": 190,
+                    "desc":"",
                     "picture": "images/bdays/4-types.jpeg"
                 },
                 {
@@ -498,6 +561,7 @@
                     "category": "مناسبات",
                     "sku": "EB",
                     "price": "12/14",
+                    "desc":"",
                     "picture": ""
                 }
             ]
