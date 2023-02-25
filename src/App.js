@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'
-import { BottomNavbar, Hero, Navbar, ProductsArea, ProductsSlider } from './components'
+import { BottomNavbar, Footer, Hero, Navbar, ProductsArea, ProductsSlider } from './components'
 import LanguageContext from './contexts/LanguageSwitcher';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -23,6 +23,7 @@ const App = () => {
             <Hero endPoint={endPoint}/>
             <ProductsSlider language={language} endPoint={endPoint} />
             <ProductsArea language={language} endPoint={endPoint}/>
+            <Footer/>
             <BottomNavbar />
         </div>
 
