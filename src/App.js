@@ -13,8 +13,7 @@ const App = () => {
     });
     
     const { language } = React.useContext(LanguageContext);
-    
-    const endPoint = ""
+    const endPoint = "https://ik.imagekit.io/bbtbvbqon/food-menus/safaaweets/"
 
     return (
 

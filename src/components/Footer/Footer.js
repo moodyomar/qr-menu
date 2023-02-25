@@ -5,7 +5,7 @@ const Footer = () => {
 return(
 
 <div className='Footer' style={footerStyle}>
-<p>פיתוח על ידי <a href="https://qbmedia.co.il" target="_blank" style={footerStyle.a}>קיובי מדיה</a></p>
+<p>פיתוח על ידי <a href="https://qbmedia.co.il" target="_blank" rel="noreferrer" style={footerStyle.a}>קיובי מדיה</a></p>
 </div>
 
 )
