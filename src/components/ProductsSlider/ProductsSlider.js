@@ -38,7 +38,7 @@ const ProductsSlider = ({language,endPoint}) => {
         "name": contentLng.catTitle,
         "desc": contentLng.catDesc
       }} />
-      <Carousel responsive={responsive} autoPlay={true} showDots={true} swipeable={false}
+      <Carousel responsive={responsive} autoPlay={true} showDots={true} swipeable={false} infinite={true}
         autoPlaySpeed={3000} partialVisible={false} rewind={true} rewindWithAnimation={true} rtl={true}>
         {contentLng.categories.map((category, i) => (
           <a href={`#${category.name}`}><CategoryCard key={i} category={category} endPoint={endPoint}/></a>

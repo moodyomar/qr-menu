@@ -2,12 +2,16 @@ import React from 'react';
 import { Box } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import shapeDivider from "./shape.svg"
+
 import "./Hero.css"
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   root: {
     backgroundSize: "cover",
     height: "225px",
+    [theme.breakpoints.up("md")]: {
+      height: "400px",
+    },
     marginTop:"48px",
     position: "relative",
     overflow: "hidden"
@@ -25,6 +29,9 @@ const useStyles = makeStyles({
     backgroundColor: "black",
     opacity: 0.5,
     height: "225px",
+    [theme.breakpoints.up("md")]: {
+      height: "400px",
+    },
     width: "100%",
     position: "absolute",
     top: 0,
@@ -49,7 +56,7 @@ const useStyles = makeStyles({
       backgroundImage: `url(${shapeDivider})`,
       filter: "invert(1)",
     },
-  },});
+  },}));
 
 
 const Hero = ({endPoint}) => {

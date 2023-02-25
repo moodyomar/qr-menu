@@ -1,14 +1,10 @@
-
-.shapeDivider-4{
-    background-color: red !important;
-}
 @media (min-width:2100px) {
     .shapedividers_com-673::before {
         background-size: 100% calc(2vw + 90px);
     }
 }
 
-.up-arrow{
+.up-arrow {
     width: 40px;
     height: 40px;
     background-color: #D39F47;
@@ -24,4 +20,10 @@
     margin-right: 15px;
     margin-bottom: 100px;
     cursor: pointer;
+}
+
+@media (min-width:1100px) {
+    .MuiBox-root {
+        height: 400px !important;
+    }
 }

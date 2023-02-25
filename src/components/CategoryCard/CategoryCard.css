@@ -10,3 +10,10 @@
     color: #fff;
     background-size: cover;
 }
+
+@media screen and (min-width: 1100px) {
+    .CategoryCard{
+        width: 250px;
+        height: 200px;     
+    }
+  }

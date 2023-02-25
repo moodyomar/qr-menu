@@ -20,7 +20,7 @@ const ProductsArea = ({language,endPoint}) => {
             <Title category={category}/>
             <Grid container spacing={2}>
               {category.products.map((product, i) => (
-                <Grid item xs={6} key={i}>
+                <Grid item xs={6} md={4} lg={3} key={i}>
                   {/* Each Product In The Above Category */}
                   <ProductCard product={product} endPoint={endPoint}/>
                 </Grid>
