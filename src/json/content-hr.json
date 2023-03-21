@@ -563,5 +563,13 @@
                 }
             ]
         }
-    ]
+    ],
+    "whatsappDetails":{
+     "ownerPhone":"+972524866196",
+     "wspMsgStart":"שלום، אני מעוניין להזמין",
+     "specialNotes":"הערות מיוחדות",
+     "shareBtn":"שתף",
+     "orderBtn":"הזמן",
+     "placeholder":"יש לך הערות מיוחדות?"
+    }
 }

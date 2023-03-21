@@ -566,5 +566,13 @@
                 }
             ]
         }
-    ]
+    ],
+    "whatsappDetails":{
+     "ownerPhone":"+9720532321265",
+     "wspMsgStart":"مرحبا، دوصي على",
+     "specialNotes":"ملاحظات مهمه",
+     "shareBtn":"شارك",
+     "orderBtn":"اطلب",
+     "placeholder":"عندك اي ملاحظات?"
+    }
 }
