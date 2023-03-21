@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";import App from './App';
 import { LanguageProvider } from './contexts/LanguageSwitcher';
+import { WhatsappProvider } from './contexts/WhatsappCart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -15,7 +16,9 @@ const router = createBrowserRouter([
     path: "/",
     element: 
     <LanguageProvider>
+    <WhatsappProvider>
       <App/>
+    </WhatsappProvider>
     </LanguageProvider>
     ,
   },

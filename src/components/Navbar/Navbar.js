@@ -138,6 +138,9 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+            <img src="logo.png" alt="QB Media" width={30}/>
+          </Box>
           {/* Language Switcher */}
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Select language">
@@ -163,9 +166,7 @@ function ResponsiveAppBar() {
             >
               {languages.map((language) => (
                 <MenuItem key={language} onClick={() => handleLanguageChange(language)}>
-                  {language === 'He' ? <img src={flagHE} alt="He flag" /> : <img src={flagAR} alt="Ar flag" />}
-                  <Typography style={{ color: 'white' }} textAlign="center" >{language}</Typography>
-                  {language}
+                  <img src={language === 'He' ? flagHE : flagAR} alt={selectedLanguage} style={{ filter: 'invert(1)'}} />
                 </MenuItem>
               ))}
             </Menu>
