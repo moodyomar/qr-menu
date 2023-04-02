@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css'
-import { BottomNavbar, Footer, Hero, Navbar, ProductsArea, ProductsSlider } from './components'
 import LanguageContext from './contexts/LanguageSwitcher';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Home from './pages/Home';
+import Products from './pages/Products';
+import ScrollToTop from './utils/ScrollToTop';
 
 
 const App = () => {
@@ -16,16 +19,16 @@ const App = () => {
     const endPoint = "https://ik.imagekit.io/bbtbvbqon/food-menus/safaaweets/"
 
     return (
-
-        <div className='App' style={{ textAlign: "center" }}>
-            <Navbar/>
-            <Hero endPoint={endPoint}/>
-            <ProductsSlider language={language} endPoint={endPoint} />
-            <ProductsArea language={language} endPoint={endPoint}/>
-            <Footer/>
-            <BottomNavbar />
-        </div>
-
+                <div className='App' style={{ textAlign: "center" }}>
+                <Router>
+                <ScrollToTop />
+                    <Routes>
+                        <Route exact path="/" element={<Home endPoint={endPoint} lng={language} />} />
+                        {/* <Route path='/:productId' element={<Product endPoint={endPoint} lng={language} />} /> */}
+                        <Route path='/:category' element={<Products endPoint={endPoint} lng={language} />} />
+                    </Routes>
+                </Router>
+            </div>
     )
 }
 

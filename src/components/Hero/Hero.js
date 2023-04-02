@@ -14,16 +14,10 @@ const useStyles = makeStyles((theme) => ({
     },
     marginTop:"48px",
     position: "relative",
-    overflow: "hidden"
-  },
-  logo: {
-    height: "250px",
-    width: "250px",
-    objectFit: "contain",
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
+    overflow: "hidden",
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center'
   },
   overlay: {
     backgroundColor: "black",
@@ -58,14 +52,14 @@ const useStyles = makeStyles((theme) => ({
   },}));
 
 
-const Hero = ({endPoint}) => {
+const Hero = ({endPoint,heroBg,textInHero}) => {
   const classes = useStyles();
 
   return (
     <div className={classes.shapeDivider}>
-      <Box className={classes.root} style={{backgroundImage: `url(${endPoint}hero.webp)`,}}>
+      <Box className={classes.root} style={{backgroundImage: `url(${endPoint}${heroBg})`,}}>
         <Box className={classes.overlay} />
-        <img className={classes.logo} src={`${endPoint}logo-t.png`} alt="Logo" />
+        <h1 className='textInHero'>{textInHero}</h1>
       </Box>
     </div>
   );

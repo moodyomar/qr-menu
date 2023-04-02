@@ -23,4 +23,7 @@ body{
 ::-webkit-scrollbar {
     display: none;
 }
-  
+
+Link, a{
+    text-decoration: none;
+}

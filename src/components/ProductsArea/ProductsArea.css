@@ -1,7 +1,20 @@
 .showAllBtn{
     background-color: var(--card-btns);
+    color: #fff;
     border: none;
     outline: none;
-    padding: 5px 10px;
+    padding: 3px 10px;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.showAllBtn a{
+text-decoration: none;
+}
+.btn-area{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }

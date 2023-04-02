@@ -21,3 +21,7 @@
     margin-bottom: 100px;
     cursor: pointer;
 }
+.textInHero{
+    color: var(--card-btns);
+    position: absolute;
+}

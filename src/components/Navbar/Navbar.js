@@ -58,12 +58,6 @@ function ResponsiveAppBar() {
     console.log(e);
   }
 
-  React.useEffect(() => {
-  
-    
-  
-  },[] )
-
 
   return (
     <AppBar position="fixed" sx={{ bgcolor: "#1E1E1E" }}>

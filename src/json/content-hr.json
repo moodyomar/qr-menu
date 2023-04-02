@@ -4,6 +4,7 @@
     "categories": [
         {
             "name": "ראשיות 🧁",
+            "route":"mains",
             "image": "images/categories/baked-cheese.webp",
             "desc": "הכי מבוקשים שלנו, גבינה אפויה, טרילישה ועוד",
             "products": [
@@ -123,6 +124,7 @@
         },
         {
             "name": "שוקולד 🍫",
+            "route":"chocolates",
             "image": "images/categories/chocolate.webp",
             "desc": "כדורי שוקולד, קריפים, פנקייס וכל מה שהלב אוהב",
             "products": [
@@ -194,6 +196,7 @@
         },
         {
             "name": "קוקיז 🍪",
+            "route":"cookies",
             "image": "images/categories/cookies.webp",
             "desc": "מבחר טעים ושונה של קוקיז ספאא סוייטס",
             "products": [
@@ -313,6 +316,7 @@
         },
         {
             "name": "קר 🥤",
+            "route":"drinks",
             "image": "images/categories/softdrinks.webp",
             "desc": "בספלורה, אייס קפה, קולה ספרייט ועוד מגוון רחב",
             "products": [
@@ -400,6 +404,7 @@
         },
         {
             "name": "תמרים 🌴",
+            "route":"dates",
             "image": "images/categories/dates.webp",
             "desc": "כל מינה סוגים של אגוזי תמרים, מעמולים, דונטס ועוד",
             "products": [
@@ -471,6 +476,7 @@
         },
         {
             "name": "חם ☕",
+            "route":"hotdrinks",
             "image": "images/categories/hotdrinks.webp",
             "desc": "שוקו חם, נס קפה ועוד סוגים שונים של שתיה חמה",
             "products": [
@@ -526,6 +532,7 @@
         },
         {
             "name": "ימי הולדת 🎂",
+            "route":"birthdays",
             "image": "images/categories/bdays.webp",
             "desc": "עוגות לימי הולדת, חתונות וכל סוגי האירועים",
             "products": [
@@ -571,5 +578,7 @@
      "shareBtn":"שתף",
      "orderBtn":"הזמן",
      "placeholder":"יש לך הערות מיוחדות?"
-    }
+    },
+    "backBtn":"חזור",
+        "showBtn":"הצג הכל"
 }

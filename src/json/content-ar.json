@@ -4,6 +4,7 @@
     "categories": [
         {
             "name": "كعكات 🧁",
+            "route":"mains",
             "image": "images/categories/baked-cheese.webp",
             "desc": "من الاكثر طلباً، الجبنه المخبوزه، تريليتشا واكثر",
             "products": [
@@ -123,6 +124,7 @@
         },
         {
             "name": "شكلاطه 🍫",
+            "route":"chocolates",
             "image": "images/categories/chocolate.webp",
             "desc": "طابات شكلاطه، بانكيك، كريب وكل ما يحبه القلب",
             "products": [
@@ -159,7 +161,7 @@
                     "picture": "images/chocolate/pancakes.webp"
                 },
                 {
-                    "name": "طابات شكلاطه",
+                    "name": "فشافيش",
                     "category": "شكلاطه",
                     "sku": "CB",
                     "price": "15 = 10",
@@ -194,6 +196,7 @@
         },
         {
             "name": "بسكويت 🍪",
+            "route":"cookies",
             "image": "images/categories/cookies.webp",
             "desc": "انواع مختلفه ومتعدده من بسكويتات المحل المميزه",
             "products": [
@@ -313,6 +316,7 @@
         },
         {
             "name": "بارد 🥤",
+            "route":"drinks",
             "image": "images/categories/softdrinks.webp",
             "desc": "مشروبات بارده، بسفلورا، ايس كافي، اناناس واكثر",
             "products": [
@@ -400,6 +404,7 @@
         },
         {
             "name": "تمر 🌴",
+            "route":"dates",
             "image": "images/categories/dates.webp",
             "desc": "بسكويتات تمر مثل زرد، معمول، مقروطه واكثر",
             "products": [
@@ -471,6 +476,7 @@
         },
         {
             "name": "ساخن ☕",
+            "route":"hotdrinks",
             "image": "images/categories/hotdrinks.webp",
             "desc": "شوكو، نس كافي، وانواع اخرى من المشروبات الساخنه",
             "products": [
@@ -526,6 +532,7 @@
         },
         {
             "name": "مناسبات 🎂",
+            "route":"birthdays",
             "image": "images/categories/bdays.webp",
             "desc": "كعكات اعياد ميلاد، اعراس ولجميع انواع المناسبات",
             "products": [
@@ -571,5 +578,7 @@
         "shareBtn": "شارك",
         "orderBtn": "اطلب",
         "placeholder": "عندك اي ملاحظات?"
-    }
+    },
+    "backBtn":"رجوع",
+    "showBtn":"اعرض الكل"
 }
