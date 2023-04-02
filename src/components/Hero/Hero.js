@@ -51,10 +51,9 @@ const useStyles = makeStyles((theme) => ({
       left: "-50vw",
       right: "-50vw",
       top: "-0.1vw",
-      backgroundSize: "100% 40px",
+      backgroundSize: "100% 30px",
       backgroundPosition: "50% 100%",
       backgroundImage: `url(${shapeDivider})`,
-      filter: "invert(1)",
     },
   },}));
 

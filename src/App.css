@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap');
 
 
-
 *{
     margin: 0;
     padding: 0;
@@ -11,3 +10,17 @@
     font-family: 'Fredoka', sans-serif;
     direction: rtl;
 }
+
+:root{
+    --body-text:#fff;
+    --body-bg:#171616;
+    --card-btns:#D39F47;
+}
+
+body{
+    background-color: var(--body-bg);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+  
