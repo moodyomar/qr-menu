@@ -139,7 +139,7 @@ function ResponsiveAppBar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Select language">
               <IconButton onClick={handleOpenLangMenu} sx={{ p: 0 }}>
-                <img src={selectedLanguage === 'He' ? flagHE : flagAR} alt={selectedLanguage} sx={{ height: '15px', marginRight: '10px' }} />
+                <img src={selectedLanguage === 'Ar' ? flagHE : flagAR} alt={selectedLanguage} sx={{ height: '15px', marginRight: '10px' }} />
               </IconButton>
             </Tooltip>
             <Menu

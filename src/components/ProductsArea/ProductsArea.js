@@ -1,16 +1,12 @@
 import { ProductCard, Title } from '../'
 import Grid from '@material-ui/core/Grid'
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
-import heContent from "../../json/content-hr.json"
-import arContent from "../../json/content-ar.json"
 import './ProductsArea.css'
 import React from 'react'
 import { Link } from 'react-router-dom';
 
 
-const ProductsArea = ({language,endPoint}) => {
-
-  const contentLng = language === 'Ar' ? arContent : heContent
+const ProductsArea = ({contentLng,endPoint}) => {
 
   return (
 <div className='ProductsArea' style={{ padding: '15px' }}>

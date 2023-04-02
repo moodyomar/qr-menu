@@ -3,6 +3,7 @@
     color: #fff;
     border: none;
     outline: none;
+    height:'30px';
     padding: 3px 10px;
     border-radius: 15px;
     display: flex;

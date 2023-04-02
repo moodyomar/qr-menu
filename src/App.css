@@ -6,14 +6,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     overflow-x: hidden;
     direction: rtl;
 }
 
 :root{
     --body-text:#fff;
-    --body-bg:#171616;
+    --body-bg:#111010;
     --card-btns:#D39F47;
 }
 

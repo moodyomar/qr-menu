@@ -23,9 +23,9 @@ const App = () => {
                 <Router>
                 <ScrollToTop />
                     <Routes>
-                        <Route exact path="/" element={<Home endPoint={endPoint} lng={language} />} />
+                        <Route exact path="/" element={<Home endPoint={endPoint} language={language} />} />
                         {/* <Route path='/:productId' element={<Product endPoint={endPoint} lng={language} />} /> */}
-                        <Route path='/:category' element={<Products endPoint={endPoint} lng={language} />} />
+                        <Route path='/:category' element={<Products endPoint={endPoint} language={language} />} />
                     </Routes>
                 </Router>
             </div>

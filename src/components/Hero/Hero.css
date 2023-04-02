@@ -22,6 +22,6 @@
     cursor: pointer;
 }
 .textInHero{
-    color: var(--card-btns);
+    color: var(--body-text);
     position: absolute;
 }

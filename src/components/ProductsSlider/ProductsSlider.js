@@ -1,12 +1,8 @@
 import './ProductsSlider.css'
-import heContent from "../../json/content-hr.json"
-import arContent from "../../json/content-ar.json"
 import { Title } from '../';
 import { CategoryCard } from '..';
 
-const ProductsSlider = ({ language, endPoint }) => {
-
-  const contentLng = language === 'Ar' ? arContent : heContent
+const ProductsSlider = ({ contentLng, endPoint }) => {
 
   return (
 

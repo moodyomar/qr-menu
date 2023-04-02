@@ -1,11 +1,14 @@
+import heContent from "../../json/content-hr.json"
+import arContent from "../../json/content-ar.json"
 
+const Footer = ({language}) => { 
 
-const Footer = () => { 
+const contentLng = language === 'Ar' ? arContent : heContent
 
 return(
 
 <div className='Footer' style={footerStyle}>
-<p>פיתוח על ידי <a href="https://qbmedia.co.il" target="_blank" rel="noreferrer" style={footerStyle.a}>קיובי מדיה</a></p>
+<p>{contentLng.devText} <a href="https://qbmedia.co.il" target="_blank" rel="noreferrer" style={footerStyle.a}>{contentLng.company}</a></p>
 </div>
 
 )
