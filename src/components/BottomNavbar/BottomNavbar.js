@@ -48,7 +48,8 @@ export default function SimpleBottomNavigation() {
         break;
     }
   };
-
+  // --card-btns
+  const hoverColor = '#D39F47'
   return (
     <Box>
       <BottomNavigation style={styles.stickToBottom}
@@ -58,9 +59,9 @@ export default function SimpleBottomNavigation() {
         onChange={(event, newValue) => {
           setValue(newValue);
         }}>
-        <BottomNavigationAction icon={<InstagramIcon style={{ color: selectedIndex === 0 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(0)} />
-        <BottomNavigationAction icon={<ArrowUpwardIcon style={{ color: selectedIndex === 1 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(1)} />
-        <BottomNavigationAction icon={<WhatsAppIcon style={{ color: selectedIndex === 2 ? '#D39F47' : 'white' }} />} onClick={() => handleClick(2)} />
+        <BottomNavigationAction icon={<InstagramIcon style={{ color: selectedIndex === 0 ? hoverColor : 'white' }} />} onClick={() => handleClick(0)} />
+        <BottomNavigationAction icon={<ArrowUpwardIcon style={{ color: selectedIndex === 1 ? hoverColor : 'white' }} />} onClick={() => handleClick(1)} />
+        <BottomNavigationAction icon={<WhatsAppIcon style={{ color: selectedIndex === 2 ? hoverColor : 'white' }} />} onClick={() => handleClick(2)} />
         {memoizedValue.productsInWspCart.length > 0 && <MiniCart/> }
         {memoizedValue.productsInWspCart.length > 0 &&
           <div className={`cart-counter ${prodcutAdded ? 'product-been-added' : ''}`}>

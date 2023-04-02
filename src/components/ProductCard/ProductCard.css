@@ -14,7 +14,7 @@
     position: relative;
     overflow: hidden;
     height: 180px;
-    width: 180px;
+    width: 160px;
   }
   .add-product{
     position: absolute;
@@ -52,20 +52,21 @@
   
   .food-card-title {
     margin: 0;
-    font-size: 15px;
-    font-weight: normal;
+    font-size: 13px;
+    font-weight: bold;
   }
   
   .food-card-price {
     margin: 0;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #D39F47;
+    font-size: 14px;
+    background-color: var(--card-btns);
     width: auto;
     padding: 1px 5px;
     border-radius: 10px;
   }
-  
+  .svgs{
+    color: var(--card-btns);
+  }
   .logo{
     position: absolute;
     width: 25px !important;

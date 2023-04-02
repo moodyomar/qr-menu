@@ -1,9 +1,9 @@
-import React, { useContext, useState } from 'react';
-import WhatsappContext from '../../contexts/WhatsappCart'
+import React, { useState } from 'react';
+// import WhatsappContext from '../../contexts/WhatsappCart'
 import { FaShare } from 'react-icons/fa';
-import { MdOutlineAddCircle } from 'react-icons/md';
+// import { MdOutlineAddCircle } from 'react-icons/md';
 import { RiWhatsappFill } from 'react-icons/ri';
-import { v4 as uuid } from 'uuid';
+// import { v4 as uuid } from 'uuid';
 import './ProductCard.css';
 
 export default function ProductCard({ product: { name, price, picture, desc }, endPoint,
@@ -12,7 +12,7 @@ export default function ProductCard({ product: { name, price, picture, desc }, e
   const [showDetails, setShowDetails] = useState(false);
   const [orderNotes, setOrderNotes] = useState(null);
   const defaultPic = picture ? picture : 'logo-t.png';
-  const { memoizedValue } = useContext(WhatsappContext)
+  // const { memoizedValue } = useContext(WhatsappContext)
 
 
   const handleMouseEnter = () => {
@@ -31,15 +31,16 @@ export default function ProductCard({ product: { name, price, picture, desc }, e
         onMouseLeave={handleMouseLeave}>
         <img className="logo" src={`${endPoint}logo.png`} alt="Logo" />
         <img src={`${endPoint}${defaultPic}`} alt="Product" />
-        <button onClick={e => memoizedValue.addToWspCart({ name, price, picture, id: uuid(), qnty: 1 })} className="add-product"><MdOutlineAddCircle size={25} color={'#60D003'} /></button>
+        {/* add button */}
+        {/* <button onClick={e => memoizedValue.addToWspCart({ name, price, picture, id: uuid(), qnty: 1 })} className="add-product"><MdOutlineAddCircle size={25} color={'#60D003'} /></button> */}
         <div className={`food-card-details${showDetails ? ' show' : ''}`}>
           <p className="food-card-details-text">{desc}</p>
           <input type="text" onChange={e => setOrderNotes(e.target.value)} className='order-notes' placeholder={placeholder} />
           <div className="card-buttons">
             <a href={`https://api.whatsapp.com/send?phone=${ownerPhone}&text=${wspMsgStart} ${name} ${desc}.\n ${orderNotes !== null ? `\0*${specialNotes}:* \0${orderNotes}` : ''}`}>
-              <RiWhatsappFill size={20} color={'#D39F47'} />{orderBtn}</a>
+              <RiWhatsappFill size={20} className='svgs' />{orderBtn}</a>
             <a href={`whatsapp://send?text=${name} ב${price} מהבורגריה. זה הלינק www.website.com`} data-action="share/whatsapp/share" rel="noreferrer" target="_blank" >
-              <FaShare size={20} color={'#D39F47'} />{shareBtn}</a>
+              <FaShare size={20} className='svgs' />{shareBtn}</a>
           </div>
         </div>
         {

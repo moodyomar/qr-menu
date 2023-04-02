@@ -1,5 +1,7 @@
-.Title h1{
-    color: #1E1E1E;}
+.Title h1,
+.Title p{
+    color: var(--body-text);
+}
 .Title{
-    margin: 50px 0px 50px 0px;
+    margin: 25px 0px 25px 0px;
 }
