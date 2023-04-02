@@ -41,7 +41,7 @@
                     "picture": "images/mains/lyali-beirut.webp"
                 },
                 {
-                    "name": "كعكه اللوتوس",
+                    "name": "لوتوس",
                     "category": "لوتوس",
                     "sku": "A",
                     "price": "20/45",
@@ -57,7 +57,7 @@
                     "picture": "images/lotus/b.jpeg"
                 },
                 {
-                    "name": "تريليتشا فستق",
+                    "name": "ترليتشا فستق",
                     "category": "לוטוס",
                     "sku": "AB",
                     "price": "20/45",
@@ -137,7 +137,7 @@
                     "picture": "images/chocolate/a.webp"
                 },
                 {
-                    "name": "مكس شكلاطه",
+                    "name": "شكلاطه",
                     "category": "شكلاطه",
                     "sku": "CB",
                     "price": "20/45",

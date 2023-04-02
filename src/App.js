@@ -19,7 +19,7 @@ const App = () => {
     const endPoint = "https://ik.imagekit.io/bbtbvbqon/food-menus/safaaweets/"
 
     return (
-                <div className='App' style={{ textAlign: "center" }}>
+                <div className='App' style={{ textAlign: "center",fontFamily: language === 'He' ? 'Fredoka' : 'Cairo' }}>
                 <Router>
                 <ScrollToTop />
                     <Routes>
