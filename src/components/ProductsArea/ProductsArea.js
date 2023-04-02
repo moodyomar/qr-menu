@@ -21,7 +21,7 @@ const ProductsArea = ({language,endPoint}) => {
         <Title category={category}/>
         <Grid container spacing={2} style={{ flexWrap: 'nowrap', overflowX: 'scroll', whiteSpace: 'nowrap' }}>
           {category.products.map((product, i) => (
-            <Grid item xs={6} md={4} lg={3} key={i} style={{ flex: '0 0 auto', maxWidth: '50%',margin:'10px' }}>
+            <Grid item xs={6} md={4} lg={3} key={i} style={{ flex: '0 0 auto', maxWidth: '50%',margin:'3px' }}>
               {/* Each Product In The Above Category */}
               <ProductCard product={product} endPoint={endPoint} wspDetails={contentLng.whatsappDetails}/>
             </Grid>
