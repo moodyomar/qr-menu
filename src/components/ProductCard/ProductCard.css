@@ -146,3 +146,9 @@ max-width: 155px;
 max-height: 155px;
   }
 }
+@media screen and (min-width: 1100px) {
+  .food-card-img-container{
+    width: 300px;
+    height: 225px;
+      }
+}
