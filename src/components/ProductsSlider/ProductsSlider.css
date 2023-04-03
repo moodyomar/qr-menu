@@ -5,3 +5,7 @@
 .ProductsSlider p{
     padding: 15px;
 }
+.scroll-btn{
+    background-color: transparent;
+    border: none;
+}
