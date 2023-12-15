@@ -10,7 +10,7 @@ const CategoryCard = ({category:{name,image},endPoint}) => {
         position: 'relative',
       }}>
         <div style={{
-          background: 'linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%)',
+          background: 'linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%)',
           bottom: 0,
           left: 0,
           position: 'absolute',

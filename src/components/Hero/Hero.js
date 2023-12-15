@@ -56,12 +56,10 @@ const Hero = ({endPoint,heroBg,textInHero}) => {
   const classes = useStyles();
 
   return (
-    <div className={classes.shapeDivider}>
       <Box className={classes.root} style={{backgroundImage: `url(${endPoint}${heroBg})`,}}>
         <Box className={classes.overlay} />
         <h1 className='textInHero'>{textInHero}</h1>
       </Box>
-    </div>
   );
 };
 

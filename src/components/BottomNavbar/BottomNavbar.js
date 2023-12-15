@@ -5,11 +5,12 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import arContent from '../../json/content-ar.json'
-import heContent from '../../json/content-hr.json'
+import arContent from '../../languages/arabic.json'
+import heContent from '../../languages/hebrew.json'
 import MiniCart from '../MiniCart/MiniCart';
 import WhatsappContext from '../../contexts/WhatsappCart';
 import LanguageContext from '../../contexts/LanguageSwitcher';
+import {ownerPhone} from '../../utils/Utils'
 import './BottomNavbar.css';
 
 export default function SimpleBottomNavigation() {
@@ -19,7 +20,7 @@ export default function SimpleBottomNavigation() {
   const { language } = React.useContext(LanguageContext)
   const contentLng = language === 'He' ? heContent : arContent
   const { memoizedValue } = React.useContext(WhatsappContext)
-  const { ownerPhone, wspMsgStart } = contentLng.whatsappDetails
+  const { wspMsgStart } = contentLng.whatsappDetails
 
   React.useEffect(() => {
 
@@ -49,7 +50,7 @@ export default function SimpleBottomNavigation() {
     }
   };
   // --card-btns
-  const hoverColor = '#D39F47'
+  const hoverColor = '#FCAD17'
   return (
     <Box>
       <BottomNavigation style={styles.stickToBottom}

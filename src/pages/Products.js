@@ -1,20 +1,20 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { BottomNavbar, Footer, Hero, Navbar, ProductCard } from '../components'
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import Grid from '@material-ui/core/Grid'
-import heContent from "../json/content-hr.json"
-import arContent from "../json/content-ar.json"
+import heContent from "../languages/hebrew.json"
+import arContent from "../languages/arabic.json"
 
-const Product = ({ endPoint, language }) => {
+const Products = ({ endPoint, language }) => {
 
-    const location = useLocation();
-    const { category } = location.state;
+    const {categoryName} = useParams();
     const contentLng = language === 'Ar' ? arContent : heContent
+    const category = contentLng.categories.find((cat) => cat.name === categoryName);
 
     return (
 
         <div className='Product'>
-            <Navbar />
+            <Navbar endPoint={endPoint} />
             <Hero heroBg={category.image} mt='0px' textInHero={category.name} endPoint={endPoint} />
             <div className="product-data" style={{ marginTop: '25px', minHeight: '80vh' }}>
                 <Link to={`/`}>
@@ -24,9 +24,9 @@ const Product = ({ endPoint, language }) => {
                     {category.products.map((product, i) => (
                         <Grid item xs={6} md={4} lg={3} key={i}>
                             {/* Each Product In The Above Category */}
-                            {/* <Link to={`/${product.name}`} state={{ product }}> */}
-                            <ProductCard product={product} endPoint={endPoint} wspDetails={''} />
-                            {/* </Link> */}
+                            <Link to={`/${category.name}/${product.sku}`}>
+                                <ProductCard product={product} endPoint={endPoint} wspDetails={''} />
+                            </Link>
 
                         </Grid>
                     ))}
@@ -37,7 +37,7 @@ const Product = ({ endPoint, language }) => {
                     </Link>
                 </div>
             </div>
-            <Footer />
+            <Footer contentLng={contentLng} />
             <BottomNavbar />
         </div>
 
@@ -47,11 +47,11 @@ const Product = ({ endPoint, language }) => {
 const backBtn = {
     margin: '20px 15px',
     width: '70px',
-    justifyContent:'center',
-    alignItems:'Center',
+    justifyContent: 'center',
+    alignItems: 'Center',
     height: '30px',
     borderRadius: '15px',
     padding: '3px 10px',
 }
 
-export default Product
+export default Products

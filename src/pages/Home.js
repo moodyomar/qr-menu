@@ -1,7 +1,7 @@
 // import './Home.css'
 import { BottomNavbar, Footer, Hero, Navbar, ProductsArea, ProductsSlider } from '../components'
-import heContent from "../json/content-hr.json"
-import arContent from "../json/content-ar.json"
+import heContent from "../languages/hebrew.json"
+import arContent from "../languages/arabic.json"
 
 const Home = ({endPoint, language}) => {
 
@@ -9,11 +9,11 @@ const Home = ({endPoint, language}) => {
 
     return (
         <div className='Home'>
-            <Navbar />
+            <Navbar endPoint={endPoint} />
             <Hero endPoint={endPoint} heroBg={'hero.webp'} mt='0px' textInHero={'Safaa Sweets'}/>
             <ProductsSlider contentLng={contentLng} endPoint={endPoint} />
             <ProductsArea contentLng={contentLng} endPoint={endPoint} />
-            <Footer language={language} />
+            <Footer contentLng={contentLng} />
             <BottomNavbar />
         </div>
 

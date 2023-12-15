@@ -1,9 +1,5 @@
-import heContent from "../../json/content-hr.json"
-import arContent from "../../json/content-ar.json"
 
-const Footer = ({language}) => { 
-
-const contentLng = language === 'Ar' ? arContent : heContent
+const Footer = ({contentLng}) => { 
 
 return(
 

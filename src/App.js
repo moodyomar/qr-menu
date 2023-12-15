@@ -7,6 +7,8 @@ import 'aos/dist/aos.css';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import ScrollToTop from './utils/ScrollToTop';
+import {endPoint} from './utils/Utils';
+import Product from './pages/Product';
 
 
 const App = () => {
@@ -16,16 +18,15 @@ const App = () => {
     });
     
     const { language } = React.useContext(LanguageContext);
-    const endPoint = "https://ik.imagekit.io/bbtbvbqon/food-menus/safaaweets/"
 
     return (
-                <div className='App' style={{ textAlign: "center",fontFamily: language === 'He' ? 'Fredoka' : 'Cairo' }}>
+                <div className='App' style={{ textAlign: "center",fontFamily: language === 'He' ? 'Heebo' : 'Cairo' }}>
                 <Router>
                 <ScrollToTop />
                     <Routes>
                         <Route exact path="/" element={<Home endPoint={endPoint} language={language} />} />
-                        {/* <Route path='/:productId' element={<Product endPoint={endPoint} lng={language} />} /> */}
-                        <Route path='/:category' element={<Products endPoint={endPoint} language={language} />} />
+                        <Route path='/:categoryName/:productId' element={<Product endPoint={endPoint} language={language} />} />
+                        <Route path='/:categoryName' element={<Products endPoint={endPoint} language={language} />} />
                     </Routes>
                 </Router>
             </div>

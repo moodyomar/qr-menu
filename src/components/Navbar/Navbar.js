@@ -10,19 +10,19 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import flagAR from '../../languages/flags/Ar.svg';
 import flagHE from '../../languages//flags/He.svg';
-import heContent from "../../json/content-hr.json"
-import arContent from "../../json/content-ar.json"
+import heContent from "../../languages/hebrew.json"
+import arContent from "../../languages/arabic.json"
 import LanguageContext from '../../contexts/LanguageSwitcher'
+import { Link } from 'react-router-dom';
 
 
-function ResponsiveAppBar() {
+function ResponsiveAppBar({endPoint}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElLang, setAnchorElLang] = React.useState(null);
   const [selectedLanguage, setSelectedLanguage] = React.useState("He");
-  const { language, changeLang} = React.useContext(LanguageContext);
+  const { language, changeLang } = React.useContext(LanguageContext);
   const contentLng = language === 'Ar' ? arContent : heContent
   const languages = ['Ar', 'He'];
 
@@ -63,7 +63,6 @@ function ResponsiveAppBar() {
     <AppBar position="fixed" sx={{ bgcolor: "#1E1E1E" }}>
       <Container>
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -127,13 +126,13 @@ function ResponsiveAppBar() {
             >
               {contentLng.categories.map((cat) => (
                 <MenuItem key={cat.name} onClick={handleCloseNavMenu}>
-                  <a href={`#${cat.name}`} style={{textDecoration:"none",color:"#1E1E1E"}}><Typography textAlign="center">{cat.name}</Typography></a>
+                  <a href={`#${cat.name}`} style={{ textDecoration: "none", color: "#1E1E1E" }}><Typography textAlign="center">{cat.name}</Typography></a>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <img src="logo.png" alt="QB Media" width={30}/>
+            <Link to={'/'}><img src={`${endPoint}logo.png`} alt="QB Media" width={35} style={{marginTop:'10px'}} /></Link>
           </Box>
           {/* Language Switcher */}
           <Box sx={{ flexGrow: 0 }}>
@@ -160,11 +159,12 @@ function ResponsiveAppBar() {
             >
               {languages.map((language) => (
                 <MenuItem key={language} onClick={() => handleLanguageChange(language)}>
-                  <img src={language === 'He' ? flagHE : flagAR} alt={selectedLanguage} style={{ filter: 'invert(1)'}} />
+                  <img src={language === 'He' ? flagHE : flagAR} alt={selectedLanguage} style={{ filter: 'invert(1)' }} />
                 </MenuItem>
               ))}
             </Menu>
-          </Box>        </Toolbar>
+          </Box>
+        </Toolbar>
       </Container>
     </AppBar>
   );
