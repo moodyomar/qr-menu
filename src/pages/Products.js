@@ -9,7 +9,7 @@ const Products = ({ endPoint, language }) => {
 
     const {categoryName} = useParams();
     const contentLng = language === 'Ar' ? arContent : heContent
-    const category = contentLng.categories.find((cat) => cat.name === categoryName);
+    const category = contentLng.categories.find((cat) => cat.name.slice(0, -3) === categoryName);
 
     return (
 
@@ -24,7 +24,7 @@ const Products = ({ endPoint, language }) => {
                     {category.products.map((product, i) => (
                         <Grid item xs={6} md={4} lg={3} key={i}>
                             {/* Each Product In The Above Category */}
-                            <Link to={`/${category.name}/${product.sku}`}>
+                            <Link to={`/${category.name.slice(0, -3)}/${product.sku}`}>
                                 <ProductCard product={product} endPoint={endPoint} wspDetails={''} />
                             </Link>
 

@@ -11,7 +11,7 @@ const Product = ({ endPoint, language }) => {
 
     const { productId, categoryName } = useParams()
     const contentLng = language === 'Ar' ? arContent : heContent
-    const category = contentLng.categories.find((cat) => cat.name === categoryName);
+    const category = contentLng.categories.find((cat) => cat.name.slice(0, -3) === categoryName);
     const product = category.products.find((product) => product.sku === productId);
     const { Prenote, boldInNote, restOfNote,whatsappDetails: { wspMsgStart, shareBtn, orderBtn } } = contentLng
 
@@ -29,7 +29,7 @@ const Product = ({ endPoint, language }) => {
                 <div className="modal-buttons" style={{ margin: '25px' }}>
                     <a className="product-page-btns" href={`https://api.whatsapp.com/send?phone=${ownerPhone}&text=${wspMsgStart} ${product.name}.`}>
                         <RiWhatsappFill size={20} />{orderBtn}</a>
-                    <a className="product-page-btns" href={`whatsapp://send?text=${product.name} ב${product.price} ${url}${categoryName}/${productId}`} data-action="share/whatsapp/share" rel="noreferrer" target="_blank" >
+                    <a className="product-page-btns" href={`whatsapp://send?text=${product.name} - ${product.price}₪ - ${url}${categoryName}/${product.sku}`} data-action="share/whatsapp/share" rel="noreferrer" target="_blank" >
                         <FaShare size={20} />{shareBtn}</a>
                 </div>
                 <p style={{ padding: '35px', marginBottom: '50px' }}>{Prenote} <a href={`tel:${ownerPhone}`} className="link">{boldInNote}</a> {restOfNote}</p>
