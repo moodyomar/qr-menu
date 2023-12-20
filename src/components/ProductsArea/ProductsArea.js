@@ -31,7 +31,7 @@ const ProductsArea = ({ contentLng, endPoint }) => {
               ))}
             </Grid>
             <div className="btn-area">
-              <Link to={`/${category.name}`}><button className='showAllBtn'>{contentLng.showBtn} <ArrowBackIosIcon /></button></Link>
+            <Link to={`/${category.name.slice(0, -3)}`}><button className='showAllBtn'>{contentLng.showBtn} <ArrowBackIosIcon /></button></Link>
             </div>
           </React.Fragment>
         ))}

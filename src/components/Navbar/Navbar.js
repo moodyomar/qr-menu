@@ -15,6 +15,7 @@ import flagHE from '../../languages//flags/He.svg';
 import heContent from "../../languages/hebrew.json"
 import arContent from "../../languages/arabic.json"
 import LanguageContext from '../../contexts/LanguageSwitcher'
+import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 
@@ -25,6 +26,8 @@ function ResponsiveAppBar({endPoint}) {
   const { language, changeLang } = React.useContext(LanguageContext);
   const contentLng = language === 'Ar' ? arContent : heContent
   const languages = ['Ar', 'He'];
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   const handleOpenLangMenu = (event) => {
     setAnchorElLang(event.currentTarget);
@@ -126,7 +129,7 @@ function ResponsiveAppBar({endPoint}) {
             >
               {contentLng.categories.map((cat) => (
                 <MenuItem key={cat.name} onClick={handleCloseNavMenu}>
-                  <a href={`#${cat.name}`} style={{ textDecoration: "none", color: "#1E1E1E" }}><Typography textAlign="center">{cat.name}</Typography></a>
+                  <a href={`${isHomePage ? `#${cat.name}` : `/${cat.name.slice(0, -3)}`}`} style={{ textDecoration: "none", color: "#1E1E1E" }}><Typography textAlign="center">{cat.name}</Typography></a>
                 </MenuItem>
               ))}
             </Menu>
